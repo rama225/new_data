@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">ABlog - Posts tagged commands</title>
+  <id>http://ablog.readthedocs.org\blog\tag\commands\atom.xml</id>
+  <updated>2015-04-19T00:00:00Z</updated>
+  <link href="http://ablog.readthedocs.org" />
+  <link href="http://ablog.readthedocs.org\blog\tag\commands\atom.xml" rel="self" />
+  <generator uri="http://blog.readthedocs.org" version="0.6.4">ABlog</generator>
+  <entry xml:base="http://ablog.readthedocs.org\blog\tag\commands\atom.xml">
+    <title type="text">Watch Yourself Blogging</title>
+    <id>http://ablog.readthedocs.org\manual/watch-yourself-blogging.html</id>
+    <updated>2015-04-19T00:00:00Z</updated>
+    <published>2015-04-19T00:00:00Z</published>
+    <link href="http://ablog.readthedocs.org\manual/watch-yourself-blogging.html" />
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;watch-yourself-blogging&quot;&gt;
+
+&lt;p&gt;Wouldn&amp;#8217;t you like your blog being rebuilt and served to you automatically
+as you are blogging on a sunny Sunday afternoon? It&amp;#8217;s now possible with the
+improved &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;ablog&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;serve&lt;/span&gt;&lt;/code&gt; command.&lt;/p&gt;
+&lt;p&gt;First, you need to install &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/gorakhargosh/watchdog&quot;&gt;Watchdog&lt;/a&gt; Python package, e.g. &lt;cite&gt;pip install watchdog&lt;/cite&gt;.
+Then, you need to run &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;ablog&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;serve&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;-r&lt;/span&gt;&lt;/code&gt;. Regardless of the weather being sunny
+or the day of the week, your project will be rebuilt when you change a page
+or add a new one. This won&amp;#8217;t refresh your browser page though. Unless you
+want to hit refresh once in a while, you can easily find an auto refresher
+extension for you browser.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="http://ablog.readthedocs.org\blog\tag\commands\atom.xml">
+    <title type="text">ABlog Commands</title>
+    <id>http://ablog.readthedocs.org\manual/ablog-commands.html</id>
+    <updated>2015-04-07T00:00:00Z</updated>
+    <published>2015-03-01T00:00:00Z</published>
+    <link href="http://ablog.readthedocs.org\manual/ablog-commands.html" />
+    <author>
+      <name>Ahmet Bakan, Mehmet Gerçeker</name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;ablog-commands&quot;&gt;
+&lt;span id=&quot;commands&quot;&gt;&lt;/span&gt;
+&lt;p&gt;&lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;ablog&lt;/span&gt;&lt;/code&gt; commands are for streamlining blog operations, i.e. building, serving,
+and viewing blog pages, as well as starting a new blog.&lt;/p&gt;
+&lt;div class=&quot;highlight-python&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;$ ablog
+usage: ablog [-h] [-v] {start,build,clean,serve,post,deploy} ...
+
+ABlog for blogging with Sphinx
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -v, --version         print ABlog version and exit
+
+subcommands:
+  {start,build,clean,serve,post,deploy}
+    start               start a new blog project
+    build               build your blog project
+    clean               clean your blog build files
+    serve               serve and view your project
+    post                create a blank post
+    deploy              deploy your website build files
+
+See &amp;#39;ablog &amp;lt;command&amp;gt; -h&amp;#39; for more information on a specific command.
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;contents local topic&quot; id=&quot;here-are-all-the-things-you-can-do&quot;&gt;
+&lt;p class=&quot;topic-title first&quot;&gt;Here are all the things you can do:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;&lt;a class=&quot;reference internal&quot; href=&quot;#start-a-project&quot; id=&quot;id1&quot;&gt;Start a Project&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference internal&quot; href=&quot;#build-your-website&quot; id=&quot;id2&quot;&gt;Build your Website&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference internal&quot; href=&quot;#serve-and-view&quot; id=&quot;id3&quot;&gt;Serve and View&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference internal&quot; href=&quot;#deploy-website&quot; id=&quot;id4&quot;&gt;Deploy Website&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference internal&quot; href=&quot;#create-a-post&quot; id=&quot;id5&quot;&gt;Create a Post&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference internal&quot; href=&quot;#clean-files&quot; id=&quot;id6&quot;&gt;Clean Files&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;start-a-project&quot;&gt;
+&lt;h2&gt;&lt;a class=&quot;toc-backref&quot; href=&quot;#here-are-all-the-things-you-can-do&quot;&gt;Start a Project&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;ablog&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;start&lt;/span&gt;&lt;/code&gt; command is for quickly setting up a blog project. See
+&lt;a class=&quot;reference internal&quot; href=&quot;ablog-quick-start.html#quick-start&quot;&gt;&lt;span&gt;ABlog Quick Start&lt;/span&gt;&lt;/a&gt; for how it works and what it prepares for you.&lt;/p&gt;
+&lt;div class=&quot;highlight-python&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;$ ablog start -h
+usage: ablog start [-h]
+
+Start a new blog project with in less than 10 seconds. After answering a few
+questions, you will end up with a configuration file and sample pages.
+
+optional arguments:
+  -h, --help  show this help message and exit
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;build-your-website&quot;&gt;
+&lt;h2&gt;&lt;a class=&quot;toc-backref&quot; href=&quot;#here-are-all-the-things-you-can-do&quot;&gt;Build your Website&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Running &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;ablog&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;build&lt;/span&gt;&lt;/code&gt; in your project folder builds your website HTML pages.&lt;/p&gt;
+&lt;div class=&quot;highlight-python&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;$ ablog build -h
+usage: ablog build [-h] [-b BUILDER] [-d DOCTREES] [-s SOURCEDIR] [-w WEBSITE]
+                   [-T]
+
+Path options can be set in conf.py. Default values of paths are relative to
+conf.py.
+
+optional arguments:
+  -h, --help    show this help message and exit
+  -b BUILDER    builder to use, default `ablog_builder` or dirhtml
+  -d DOCTREES   path for the cached environment and doctree files, default
+                .doctrees when `ablog_doctrees` is not set in conf.py
+  -s SOURCEDIR  root path for source files, default is path to the folder that
+                contains conf.py
+  -w WEBSITE    path for website, default is _website when `ablog_website` is
+                not set in conf.py
+  -T            show full traceback on exception
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;serve-and-view&quot;&gt;
+&lt;h2&gt;&lt;a class=&quot;toc-backref&quot; href=&quot;#here-are-all-the-things-you-can-do&quot;&gt;Serve and View&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Running &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;ablog&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;serve&lt;/span&gt;&lt;/code&gt;, after building your website, will start a Python
+server and open up browser tab to view your website.&lt;/p&gt;
+&lt;div class=&quot;highlight-python&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;$ ablog serve -h
+usage: ablog serve [-h] [-n] [-p PORT] [-w WEBSITE]
+
+Serve options can be set in conf.py. Default values of paths are relative to
+conf.py.
+
+optional arguments:
+  -h, --help  show this help message and exit
+  -n          do not open website in a new browser tab
+  -p PORT     port number for HTTP server; default is 8000
+  -w WEBSITE  path for website, default is _website when `ablog_website` is
+              not set in conf.py
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;deploy-website&quot;&gt;
+&lt;span id=&quot;deploy&quot;&gt;&lt;/span&gt;&lt;h2&gt;&lt;a class=&quot;toc-backref&quot; href=&quot;#here-are-all-the-things-you-can-do&quot;&gt;Deploy Website&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Running &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;ablog&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;deploy&lt;/span&gt;&lt;/code&gt; will push your website to GitHub.&lt;/p&gt;
+&lt;div class=&quot;highlight-python&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;$ ablog deploy -h
+usage: ablog deploy [-h] [-g GITHUB_PAGES] [-m MESSAGE]
+                    [--github-token GITHUB_TOKEN] [--push-quietly]
+                    [-w WEBSITE]
+
+Path options can be set in conf.py. Default values of paths are relative to
+conf.py.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -g GITHUB_PAGES       GitHub username for deploying to GitHub pages
+  -m MESSAGE            commit message
+  --github-token GITHUB_TOKEN
+                        environment variable name storing GitHub access token
+  --push-quietly        be more quiet when pushing changes
+  -w WEBSITE            path for website, default is _website when
+                        `ablog_website` is not set in conf.py
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;create-a-post&quot;&gt;
+&lt;h2&gt;&lt;a class=&quot;toc-backref&quot; href=&quot;#here-are-all-the-things-you-can-do&quot;&gt;Create a Post&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Finally, &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;ablog&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;post&lt;/span&gt;&lt;/code&gt; will make a new post template file.&lt;/p&gt;
+&lt;div class=&quot;highlight-python&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;$ ablog post -h
+usage: ablog post [-h] [-t TITLE] filename
+
+positional arguments:
+  filename    filename, e.g. my-nth-post (.rst appended)
+
+optional arguments:
+  -h, --help  show this help message and exit
+  -t TITLE    post title; default is formed from filename
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;clean-files&quot;&gt;
+&lt;h2&gt;&lt;a class=&quot;toc-backref&quot; href=&quot;#here-are-all-the-things-you-can-do&quot;&gt;Clean Files&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;In case you needed, running &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;ablog&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;clean&lt;/span&gt;&lt;/code&gt; will remove build files and
+do a deep clean with &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;-D&lt;/span&gt;&lt;/code&gt; option.&lt;/p&gt;
+&lt;div class=&quot;highlight-python&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;$ ablog clean -h
+usage: ablog clean [-h] [-d DOCTREES] [-w WEBSITE] [-D]
+
+Path options can be set in conf.py. Default values of paths are relative to
+conf.py.
+
+optional arguments:
+  -h, --help   show this help message and exit
+  -d DOCTREES  path for the cached environment and doctree files, default
+               .doctrees when `ablog_doctrees` is not set in conf.py
+  -w WEBSITE   path for website, default is _website when `ablog_website` is
+               not set in conf.py
+  -D           deep clean, remove cached environment and doctree files
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;note update admonition&quot;&gt;
+&lt;p class=&quot;first admonition-title&quot;&gt;Updated on Apr 07, 2015&lt;/p&gt;
+&lt;p class=&quot;last&quot;&gt;Added &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;ablog&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;clean&lt;/span&gt;&lt;/code&gt; and &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;ablog&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;deploy&lt;/span&gt;&lt;/code&gt; commands.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+</feed>

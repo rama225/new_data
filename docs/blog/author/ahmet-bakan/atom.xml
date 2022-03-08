@@ -1,0 +1,1162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">ABlog - Posts by Ahmet Bakan</title>
+  <id>http://ablog.readthedocs.org\blog\author\ahmet-bakan\atom.xml</id>
+  <updated>2015-04-19T00:00:00Z</updated>
+  <link href="http://ablog.readthedocs.org" />
+  <link href="http://ablog.readthedocs.org\blog\author\ahmet-bakan\atom.xml" rel="self" />
+  <generator uri="http://blog.readthedocs.org" version="0.6.4">ABlog</generator>
+  <entry xml:base="http://ablog.readthedocs.org\blog\author\ahmet-bakan\atom.xml">
+    <title type="text">Watch Yourself Blogging</title>
+    <id>http://ablog.readthedocs.org\manual/watch-yourself-blogging.html</id>
+    <updated>2015-04-19T00:00:00Z</updated>
+    <published>2015-04-19T00:00:00Z</published>
+    <link href="http://ablog.readthedocs.org\manual/watch-yourself-blogging.html" />
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;watch-yourself-blogging&quot;&gt;
+
+&lt;p&gt;Wouldn&amp;#8217;t you like your blog being rebuilt and served to you automatically
+as you are blogging on a sunny Sunday afternoon? It&amp;#8217;s now possible with the
+improved &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;ablog&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;serve&lt;/span&gt;&lt;/code&gt; command.&lt;/p&gt;
+&lt;p&gt;First, you need to install &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/gorakhargosh/watchdog&quot;&gt;Watchdog&lt;/a&gt; Python package, e.g. &lt;cite&gt;pip install watchdog&lt;/cite&gt;.
+Then, you need to run &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;ablog&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;serve&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;-r&lt;/span&gt;&lt;/code&gt;. Regardless of the weather being sunny
+or the day of the week, your project will be rebuilt when you change a page
+or add a new one. This won&amp;#8217;t refresh your browser page though. Unless you
+want to hit refresh once in a while, you can easily find an auto refresher
+extension for you browser.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="http://ablog.readthedocs.org\blog\author\ahmet-bakan\atom.xml">
+    <title type="text">ABlog v0.6.4 released</title>
+    <id>http://ablog.readthedocs.org\release/ablog-v0.6-released.html#ablog-v0-6-4-released</id>
+    <updated>2015-04-19T00:00:00Z</updated>
+    <published>2015-04-19T00:00:00Z</published>
+    <link href="http://ablog.readthedocs.org\release/ablog-v0.6-released.html#ablog-v0-6-4-released" />
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;ablog-v0-6-4-released&quot;&gt;
+
+&lt;p&gt;ABlog v0.6.4 comes with improved &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;ablog&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;serve&lt;/span&gt;&lt;/code&gt; command that helps you
+&lt;a class=&quot;reference internal&quot; href=&quot;../manual/watch-yourself-blogging.html#watch-yourself-blogging&quot;&gt;&lt;span&gt;Watch Yourself Blogging&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="http://ablog.readthedocs.org\blog\author\ahmet-bakan\atom.xml">
+    <title type="text">ABlog v0.6.3 released</title>
+    <id>http://ablog.readthedocs.org\release/ablog-v0.6-released.html#ablog-v0-6-3-released</id>
+    <updated>2015-04-15T00:00:00Z</updated>
+    <published>2015-04-15T00:00:00Z</published>
+    <link href="http://ablog.readthedocs.org\release/ablog-v0.6-released.html#ablog-v0-6-3-released" />
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;ablog-v0-6-3-released&quot;&gt;
+
+&lt;p&gt;ABlog v0.6.3 comes with Russian localisation and following enhancements:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;div&gt;&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;Added &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;:list-style:&lt;/span&gt;&lt;/code&gt; option to &lt;a class=&quot;reference internal&quot; href=&quot;../manual/posting-and-listing.html#directive-postlist&quot; title=&quot;postlist directive&quot;&gt;&lt;code class=&quot;xref rst rst-dir docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;postlist&lt;/span&gt;&lt;/code&gt;&lt;/a&gt; to enable
+controlling bullet list style.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;ablog&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;post&lt;/span&gt;&lt;/code&gt; command de-slugifies filename to make the title
+when it&amp;#8217;s not given.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;/blockquote&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="http://ablog.readthedocs.org\blog\author\ahmet-bakan\atom.xml">
+    <title type="text">ABlog v0.6.2 released</title>
+    <id>http://ablog.readthedocs.org\release/ablog-v0.6-released.html#ablog-v0-6-2-released</id>
+    <updated>2015-04-14T00:00:00Z</updated>
+    <published>2015-04-14T00:00:00Z</published>
+    <link href="http://ablog.readthedocs.org\release/ablog-v0.6-released.html#ablog-v0-6-2-released" />
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;ablog-v0-6-2-released&quot;&gt;
+
+&lt;p&gt;ABlog v0.6.2 is released to fix an issue with loading of Disqus comments
+(&lt;a class=&quot;reference external&quot; href=&quot;https://github.com/abakan/ablog/issues/33&quot;&gt;issue 33&lt;/a&gt;) and interpreting non-ascii characters (&lt;a class=&quot;reference external&quot; href=&quot;https://github.com/abakan/ablog/issues/34&quot;&gt;issue 34&lt;/a&gt;).&lt;/p&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="http://ablog.readthedocs.org\blog\author\ahmet-bakan\atom.xml">
+    <title type="text">ABlog v0.6.1 released</title>
+    <id>http://ablog.readthedocs.org\release/ablog-v0.6-released.html#ablog-v0-6-1-released</id>
+    <updated>2015-04-09T00:00:00Z</updated>
+    <published>2015-04-09T00:00:00Z</published>
+    <link href="http://ablog.readthedocs.org\release/ablog-v0.6-released.html#ablog-v0-6-1-released" />
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;ablog-v0-6-1-released&quot;&gt;
+
+&lt;p&gt;ABlog v0.6.1 is released with improvements to &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;ablog&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;deploy&lt;/span&gt;&lt;/code&gt; command.
+It will add &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;.nojekyll&lt;/span&gt;&lt;/code&gt; file when needed to deployments to GitHub pages.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="http://ablog.readthedocs.org\blog\author\ahmet-bakan\atom.xml">
+    <title type="text">ABlog v0.6 released</title>
+    <id>http://ablog.readthedocs.org\release/ablog-v0.6-released.html</id>
+    <updated>2015-04-08T00:00:00Z</updated>
+    <published>2015-04-08T00:00:00Z</published>
+    <link href="http://ablog.readthedocs.org\release/ablog-v0.6-released.html" />
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+  </entry>
+  <entry xml:base="http://ablog.readthedocs.org\blog\author\ahmet-bakan\atom.xml">
+    <title type="text">Deploy to GitHub Pages</title>
+    <id>http://ablog.readthedocs.org\manual/deploy-to-github-pages.html</id>
+    <updated>2015-04-07T00:00:00Z</updated>
+    <published>2015-04-07T00:00:00Z</published>
+    <link href="http://ablog.readthedocs.org\manual/deploy-to-github-pages.html" />
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;deploy-to-github-pages&quot;&gt;
+
+&lt;p&gt;If you are looking for a place to publish your blog, &lt;a class=&quot;reference external&quot; href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt; might
+be the place for you.&lt;/p&gt;
+&lt;p&gt;Assuming that you have a GitHub account, here are what you need to do
+to get published:&lt;/p&gt;
+&lt;ol class=&quot;arabic simple&quot;&gt;
+&lt;li&gt;Head over to &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/abakan/ablog&quot;&gt;GitHub&lt;/a&gt; and create a new repository named &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;username.github.io&lt;/span&gt;&lt;/code&gt;, where
+username is your username (or organization name) on GitHub.&lt;/li&gt;
+&lt;li&gt;(optional) If you followed the link, you might as well give a star to ABlog ;)&lt;/li&gt;
+&lt;li&gt;Set &lt;a class=&quot;reference internal&quot; href=&quot;ablog-configuration-options.html#confval-github_pages&quot;&gt;&lt;code class=&quot;xref std std-confval docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;github_pages&lt;/span&gt;&lt;/code&gt;&lt;/a&gt; configuration variable in &lt;code class=&quot;file docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;conf.py&lt;/span&gt;&lt;/code&gt; file.&lt;/li&gt;
+&lt;li&gt;Run &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;ablog&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;build&lt;/span&gt;&lt;/code&gt; in your project folder.&lt;/li&gt;
+&lt;li&gt;Run &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;ablog&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;deploy&lt;/span&gt;&lt;/code&gt;. This command will&lt;ol class=&quot;lowerroman&quot;&gt;
+&lt;li&gt;clone your GitHub pages repository to project folder,&lt;/li&gt;
+&lt;li&gt;copy all files from build folder (&lt;code class=&quot;file docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;_website&lt;/span&gt;&lt;/code&gt;) to &lt;code class=&quot;file docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;username.github.io&lt;/span&gt;&lt;/code&gt;,&lt;/li&gt;
+&lt;li&gt;add and commit copied files,&lt;/li&gt;
+&lt;li&gt;add &lt;a class=&quot;reference external&quot; href=&quot;https://help.github.com/articles/using-jekyll-with-pages/#turning-jekyll-off&quot;&gt;.nojekyll&lt;/a&gt;
+file, since this ain&amp;#8217;t no &lt;a class=&quot;reference external&quot; href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;and finally push the changes to publish.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Let us know how this works for you!&lt;/p&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="http://ablog.readthedocs.org\blog\author\ahmet-bakan\atom.xml">
+    <title type="text">ABlog v0.5.1 released</title>
+    <id>http://ablog.readthedocs.org\release/ablog-v0.5-released.html#ablog-v0-5-1-released</id>
+    <updated>2015-03-28T00:00:00Z</updated>
+    <published>2015-03-28T00:00:00Z</published>
+    <link href="http://ablog.readthedocs.org\release/ablog-v0.5-released.html#ablog-v0-5-1-released" />
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;ablog-v0-5-1-released&quot;&gt;
+
+&lt;p&gt;Added &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;:excerpts:&lt;/span&gt;&lt;/code&gt; option to &lt;a class=&quot;reference internal&quot; href=&quot;../manual/posting-and-listing.html#directive-postlist&quot; title=&quot;postlist directive&quot;&gt;&lt;code class=&quot;xref rst rst-dir docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;postlist&lt;/span&gt;&lt;/code&gt;&lt;/a&gt; directive.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="http://ablog.readthedocs.org\blog\author\ahmet-bakan\atom.xml">
+    <title type="text">ABlog v0.5 released</title>
+    <id>http://ablog.readthedocs.org\release/ablog-v0.5-released.html</id>
+    <updated>2015-03-25T00:00:00Z</updated>
+    <published>2015-03-25T00:00:00Z</published>
+    <link href="http://ablog.readthedocs.org\release/ablog-v0.5-released.html" />
+    <author>
+      <name>Ahmet Bakan, Mehmet Gerçeker</name>
+    </author>
+  </entry>
+  <entry xml:base="http://ablog.readthedocs.org\blog\author\ahmet-bakan\atom.xml">
+    <title type="text">ABlog Quick Start</title>
+    <id>http://ablog.readthedocs.org\manual/ablog-quick-start.html</id>
+    <updated>2015-03-01T00:00:00Z</updated>
+    <published>2015-03-01T00:00:00Z</published>
+    <link href="http://ablog.readthedocs.org\manual/ablog-quick-start.html" />
+    <author>
+      <name>Mehmet Gerçeker, Ahmet Bakan</name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;ablog-quick-start&quot;&gt;
+&lt;span id=&quot;quick-start&quot;&gt;&lt;/span&gt;
+&lt;p&gt;This short walk through of blogging work flow assumes that you have already
+installed ABlog. If not, see &lt;a class=&quot;reference internal&quot; href=&quot;../index.html#installation&quot;&gt;&lt;span&gt;Installation&lt;/span&gt;&lt;/a&gt; guide.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Note that this post is a working draft. Feel free to revise it on GitHub.&lt;/em&gt;&lt;/p&gt;
+&lt;div class=&quot;section&quot; id=&quot;start-a-project&quot;&gt;
+&lt;h2&gt;Start a Project&lt;/h2&gt;
+&lt;p&gt;To start a new project, run &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;ablog&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;start&lt;/span&gt;&lt;/code&gt; command in a directory where
+you want to keep your project source files. This command will ask you a
+few questions and create the following files:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;div&gt;&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;&lt;code class=&quot;file docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;conf.py&lt;/span&gt;&lt;/code&gt; that contains project configuration for building HTML
+pages.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;file docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;first-post.rst&lt;/span&gt;&lt;/code&gt;, a blog post example.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;file docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;index.rst&lt;/span&gt;&lt;/code&gt; that contains content for the &lt;em&gt;landing&lt;/em&gt; page of your
+website.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;file docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;about.rst&lt;/span&gt;&lt;/code&gt;, another non-post page example.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;build-and-view&quot;&gt;
+&lt;h2&gt;Build and View&lt;/h2&gt;
+&lt;p&gt;With no further delay, let&amp;#8217;s see what your project will look like.
+First run &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;ablog&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;build&lt;/span&gt;&lt;/code&gt;, in your project folder, to have HTML pages
+built in &lt;code class=&quot;file docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;_website&lt;/span&gt;&lt;/code&gt; folder. Then, call &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;ablog&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;serve&lt;/span&gt;&lt;/code&gt; to view
+them in your default web browser.  See &lt;a class=&quot;reference internal&quot; href=&quot;ablog-commands.html#commands&quot;&gt;&lt;span&gt;ABlog Commands&lt;/span&gt;&lt;/a&gt; for more
+information about these commands.&lt;/p&gt;
+&lt;p&gt;Your landing page is built from &lt;code class=&quot;file docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;index.rst&lt;/span&gt;&lt;/code&gt; and contains links to your
+first post and about page. Take a look at &lt;code class=&quot;file docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;index.rst&lt;/span&gt;&lt;/code&gt; for some tips on
+navigation links within the project.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;write-content&quot;&gt;
+&lt;h2&gt;Write Content&lt;/h2&gt;
+&lt;p&gt;If you are new to &lt;a class=&quot;reference external&quot; href=&quot;http://sphinx-doc.org/&quot;&gt;Sphinx&lt;/a&gt; and reStructuredText markup language,
+you might find &lt;a class=&quot;reference external&quot; href=&quot;http://sphinx-doc.org/rest.html&quot;&gt;reStructuredText Primer&lt;/a&gt; useful.&lt;/p&gt;
+&lt;div class=&quot;section&quot; id=&quot;pages&quot;&gt;
+&lt;h3&gt;Pages&lt;/h3&gt;
+&lt;p&gt;Pages in your project are &lt;code class=&quot;file docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;.rst&lt;/span&gt;&lt;/code&gt; files that are only a &lt;a class=&quot;reference internal&quot; href=&quot;posting-and-listing.html#directive-post&quot; title=&quot;post directive&quot;&gt;&lt;code class=&quot;xref rst rst-dir docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;post&lt;/span&gt;&lt;/code&gt;&lt;/a&gt;
+directive short of becoming blog posts. To make regular pages accessible
+from the navigation bar, you need to list them in a &lt;a class=&quot;reference external&quot; href=&quot;http://sphinx-doc.org/markup/toctree.html#directive-toctree&quot; title=&quot;(in Sphinx v1.3.1+)&quot;&gt;&lt;code class=&quot;xref rst rst-dir docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;toctree&lt;/span&gt;&lt;/code&gt;&lt;/a&gt;.
+This is shown for &lt;em&gt;about&lt;/em&gt; page into &lt;code class=&quot;file docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;index.rst&lt;/span&gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;posts&quot;&gt;
+&lt;h3&gt;Posts&lt;/h3&gt;
+&lt;p&gt;You can convert any page to a post with a &lt;a class=&quot;reference internal&quot; href=&quot;posting-and-listing.html#directive-post&quot; title=&quot;post directive&quot;&gt;&lt;code class=&quot;xref rst rst-dir docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;post&lt;/span&gt;&lt;/code&gt;&lt;/a&gt; directive.
+ABlog will take care of listing posts in specified archives and sidebars.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;comments&quot;&gt;
+&lt;h2&gt;Comments&lt;/h2&gt;
+&lt;p&gt;You can enable comments in your website by creating a &lt;a class=&quot;reference external&quot; href=&quot;http://disqus.com/&quot;&gt;Disqus&lt;/a&gt; account and
+obtaining a unique identifier, i.e. &lt;a class=&quot;reference internal&quot; href=&quot;ablog-configuration-options.html#confval-disqus_shortname&quot;&gt;&lt;code class=&quot;xref std std-confval docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;disqus_shortname&lt;/span&gt;&lt;/code&gt;&lt;/a&gt;.
+See &lt;a class=&quot;reference internal&quot; href=&quot;ablog-configuration-options.html#disqus-integration&quot;&gt;&lt;span&gt;Disqus integration&lt;/span&gt;&lt;/a&gt; for configuration options.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;analytics&quot;&gt;
+&lt;h2&gt;Analytics&lt;/h2&gt;
+&lt;p&gt;ABlog uses &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/bitprophet/alabaster&quot;&gt;Alabaster&lt;/a&gt; theme by default. You can use theme options to set
+your &lt;a class=&quot;reference external&quot; href=&quot;http://www.google.com/analytics/&quot;&gt;Google Analytics&lt;/a&gt; identifier to enable tracking.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;configuration&quot;&gt;
+&lt;h2&gt;Configuration&lt;/h2&gt;
+&lt;p&gt;There are four major groups of configuration options that can help you
+customize how your website looks:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;div&gt;&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;&lt;a class=&quot;reference internal&quot; href=&quot;ablog-configuration-options.html#config&quot;&gt;&lt;span&gt;ABlog Configuration Options&lt;/span&gt;&lt;/a&gt; - add blog authors, post locations and languages to your
+blog, adjust archive and feed content, etc.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;http://sphinx-doc.org/config.html#general-configuration&quot;&gt;General configuration&lt;/a&gt;
+and &lt;a class=&quot;reference external&quot; href=&quot;http://sphinx-doc.org/config.html#project-information&quot;&gt;project information&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;http://sphinx-doc.org/config.html#html-options&quot; title=&quot;(in Sphinx v1.3.1+)&quot;&gt;&lt;span&gt;Options for HTML output&lt;/span&gt;&lt;/a&gt; - configure appearance of your website&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://github.com/bitprophet/alabaster&quot;&gt;Alabaster&lt;/a&gt; theme options - link to your GitHub account and project, set up
+tracking, etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;other-folders&quot;&gt;
+&lt;h2&gt;Other Folders&lt;/h2&gt;
+&lt;p&gt;You might have noticed that your project contains three folders that we have
+not mention yet. Here they are:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;div&gt;&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;&lt;code class=&quot;file docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;_static&lt;/span&gt;&lt;/code&gt; is for keeping image, &lt;code class=&quot;file docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;.js&lt;/span&gt;&lt;/code&gt;, and &lt;code class=&quot;file docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;.css&lt;/span&gt;&lt;/code&gt; files.
+&lt;a class=&quot;reference external&quot; href=&quot;http://sphinx-doc.org/config.html#confval-html_static_path&quot; title=&quot;(in Sphinx v1.3.1+)&quot;&gt;&lt;code class=&quot;xref std std-confval docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;html_static_path&lt;/span&gt;&lt;/code&gt;&lt;/a&gt; Sphinx option for more information.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;file docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;_templates&lt;/span&gt;&lt;/code&gt; is for custom HTML templates. See
+&lt;a class=&quot;reference external&quot; href=&quot;http://sphinx-doc.org/config.html#confval-templates_path&quot; title=&quot;(in Sphinx v1.3.1+)&quot;&gt;&lt;code class=&quot;xref std std-confval docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;templates_path&lt;/span&gt;&lt;/code&gt;&lt;/a&gt; for more information.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;file docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;.doctree&lt;/span&gt;&lt;/code&gt; folder, created after build command is called, is
+where &lt;a class=&quot;reference external&quot; href=&quot;http://sphinx-doc.org/&quot;&gt;Sphinx&lt;/a&gt; stores the state of your project. Files in this folder
+saves time when you rebuild your project.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="http://ablog.readthedocs.org\blog\author\ahmet-bakan\atom.xml">
+    <title type="text">ABlog Commands</title>
+    <id>http://ablog.readthedocs.org\manual/ablog-commands.html</id>
+    <updated>2015-04-07T00:00:00Z</updated>
+    <published>2015-03-01T00:00:00Z</published>
+    <link href="http://ablog.readthedocs.org\manual/ablog-commands.html" />
+    <author>
+      <name>Ahmet Bakan, Mehmet Gerçeker</name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;ablog-commands&quot;&gt;
+&lt;span id=&quot;commands&quot;&gt;&lt;/span&gt;
+&lt;p&gt;&lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;ablog&lt;/span&gt;&lt;/code&gt; commands are for streamlining blog operations, i.e. building, serving,
+and viewing blog pages, as well as starting a new blog.&lt;/p&gt;
+&lt;div class=&quot;highlight-python&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;$ ablog
+usage: ablog [-h] [-v] {start,build,clean,serve,post,deploy} ...
+
+ABlog for blogging with Sphinx
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -v, --version         print ABlog version and exit
+
+subcommands:
+  {start,build,clean,serve,post,deploy}
+    start               start a new blog project
+    build               build your blog project
+    clean               clean your blog build files
+    serve               serve and view your project
+    post                create a blank post
+    deploy              deploy your website build files
+
+See &amp;#39;ablog &amp;lt;command&amp;gt; -h&amp;#39; for more information on a specific command.
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;contents local topic&quot; id=&quot;here-are-all-the-things-you-can-do&quot;&gt;
+&lt;p class=&quot;topic-title first&quot;&gt;Here are all the things you can do:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;&lt;a class=&quot;reference internal&quot; href=&quot;#start-a-project&quot; id=&quot;id1&quot;&gt;Start a Project&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference internal&quot; href=&quot;#build-your-website&quot; id=&quot;id2&quot;&gt;Build your Website&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference internal&quot; href=&quot;#serve-and-view&quot; id=&quot;id3&quot;&gt;Serve and View&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference internal&quot; href=&quot;#deploy-website&quot; id=&quot;id4&quot;&gt;Deploy Website&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference internal&quot; href=&quot;#create-a-post&quot; id=&quot;id5&quot;&gt;Create a Post&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference internal&quot; href=&quot;#clean-files&quot; id=&quot;id6&quot;&gt;Clean Files&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;start-a-project&quot;&gt;
+&lt;h2&gt;&lt;a class=&quot;toc-backref&quot; href=&quot;#here-are-all-the-things-you-can-do&quot;&gt;Start a Project&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;ablog&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;start&lt;/span&gt;&lt;/code&gt; command is for quickly setting up a blog project. See
+&lt;a class=&quot;reference internal&quot; href=&quot;ablog-quick-start.html#quick-start&quot;&gt;&lt;span&gt;ABlog Quick Start&lt;/span&gt;&lt;/a&gt; for how it works and what it prepares for you.&lt;/p&gt;
+&lt;div class=&quot;highlight-python&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;$ ablog start -h
+usage: ablog start [-h]
+
+Start a new blog project with in less than 10 seconds. After answering a few
+questions, you will end up with a configuration file and sample pages.
+
+optional arguments:
+  -h, --help  show this help message and exit
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;build-your-website&quot;&gt;
+&lt;h2&gt;&lt;a class=&quot;toc-backref&quot; href=&quot;#here-are-all-the-things-you-can-do&quot;&gt;Build your Website&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Running &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;ablog&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;build&lt;/span&gt;&lt;/code&gt; in your project folder builds your website HTML pages.&lt;/p&gt;
+&lt;div class=&quot;highlight-python&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;$ ablog build -h
+usage: ablog build [-h] [-b BUILDER] [-d DOCTREES] [-s SOURCEDIR] [-w WEBSITE]
+                   [-T]
+
+Path options can be set in conf.py. Default values of paths are relative to
+conf.py.
+
+optional arguments:
+  -h, --help    show this help message and exit
+  -b BUILDER    builder to use, default `ablog_builder` or dirhtml
+  -d DOCTREES   path for the cached environment and doctree files, default
+                .doctrees when `ablog_doctrees` is not set in conf.py
+  -s SOURCEDIR  root path for source files, default is path to the folder that
+                contains conf.py
+  -w WEBSITE    path for website, default is _website when `ablog_website` is
+                not set in conf.py
+  -T            show full traceback on exception
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;serve-and-view&quot;&gt;
+&lt;h2&gt;&lt;a class=&quot;toc-backref&quot; href=&quot;#here-are-all-the-things-you-can-do&quot;&gt;Serve and View&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Running &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;ablog&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;serve&lt;/span&gt;&lt;/code&gt;, after building your website, will start a Python
+server and open up browser tab to view your website.&lt;/p&gt;
+&lt;div class=&quot;highlight-python&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;$ ablog serve -h
+usage: ablog serve [-h] [-n] [-p PORT] [-w WEBSITE]
+
+Serve options can be set in conf.py. Default values of paths are relative to
+conf.py.
+
+optional arguments:
+  -h, --help  show this help message and exit
+  -n          do not open website in a new browser tab
+  -p PORT     port number for HTTP server; default is 8000
+  -w WEBSITE  path for website, default is _website when `ablog_website` is
+              not set in conf.py
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;deploy-website&quot;&gt;
+&lt;span id=&quot;deploy&quot;&gt;&lt;/span&gt;&lt;h2&gt;&lt;a class=&quot;toc-backref&quot; href=&quot;#here-are-all-the-things-you-can-do&quot;&gt;Deploy Website&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Running &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;ablog&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;deploy&lt;/span&gt;&lt;/code&gt; will push your website to GitHub.&lt;/p&gt;
+&lt;div class=&quot;highlight-python&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;$ ablog deploy -h
+usage: ablog deploy [-h] [-g GITHUB_PAGES] [-m MESSAGE]
+                    [--github-token GITHUB_TOKEN] [--push-quietly]
+                    [-w WEBSITE]
+
+Path options can be set in conf.py. Default values of paths are relative to
+conf.py.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -g GITHUB_PAGES       GitHub username for deploying to GitHub pages
+  -m MESSAGE            commit message
+  --github-token GITHUB_TOKEN
+                        environment variable name storing GitHub access token
+  --push-quietly        be more quiet when pushing changes
+  -w WEBSITE            path for website, default is _website when
+                        `ablog_website` is not set in conf.py
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;create-a-post&quot;&gt;
+&lt;h2&gt;&lt;a class=&quot;toc-backref&quot; href=&quot;#here-are-all-the-things-you-can-do&quot;&gt;Create a Post&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Finally, &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;ablog&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;post&lt;/span&gt;&lt;/code&gt; will make a new post template file.&lt;/p&gt;
+&lt;div class=&quot;highlight-python&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;$ ablog post -h
+usage: ablog post [-h] [-t TITLE] filename
+
+positional arguments:
+  filename    filename, e.g. my-nth-post (.rst appended)
+
+optional arguments:
+  -h, --help  show this help message and exit
+  -t TITLE    post title; default is formed from filename
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;clean-files&quot;&gt;
+&lt;h2&gt;&lt;a class=&quot;toc-backref&quot; href=&quot;#here-are-all-the-things-you-can-do&quot;&gt;Clean Files&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;In case you needed, running &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;ablog&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;clean&lt;/span&gt;&lt;/code&gt; will remove build files and
+do a deep clean with &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;-D&lt;/span&gt;&lt;/code&gt; option.&lt;/p&gt;
+&lt;div class=&quot;highlight-python&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;$ ablog clean -h
+usage: ablog clean [-h] [-d DOCTREES] [-w WEBSITE] [-D]
+
+Path options can be set in conf.py. Default values of paths are relative to
+conf.py.
+
+optional arguments:
+  -h, --help   show this help message and exit
+  -d DOCTREES  path for the cached environment and doctree files, default
+               .doctrees when `ablog_doctrees` is not set in conf.py
+  -w WEBSITE   path for website, default is _website when `ablog_website` is
+               not set in conf.py
+  -D           deep clean, remove cached environment and doctree files
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;note update admonition&quot;&gt;
+&lt;p class=&quot;first admonition-title&quot;&gt;Updated on Apr 07, 2015&lt;/p&gt;
+&lt;p class=&quot;last&quot;&gt;Added &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;ablog&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;clean&lt;/span&gt;&lt;/code&gt; and &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;ablog&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;deploy&lt;/span&gt;&lt;/code&gt; commands.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="http://ablog.readthedocs.org\blog\author\ahmet-bakan\atom.xml">
+    <title type="text">ABlog v0.4 released</title>
+    <id>http://ablog.readthedocs.org\release/ablog-v0.4-released.html</id>
+    <updated>2014-12-20T00:00:00Z</updated>
+    <published>2014-12-20T00:00:00Z</published>
+    <link href="http://ablog.readthedocs.org\release/ablog-v0.4-released.html" />
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;ablog-v0-4-released&quot;&gt;
+
+&lt;p&gt;ABlog v0.4 is released. This version comes with the following improvements
+and bug fixes:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;div&gt;&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;Added &lt;a class=&quot;reference internal&quot; href=&quot;../manual/ablog-configuration-options.html#confval-blog_feed_titles&quot;&gt;&lt;code class=&quot;xref std std-confval docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;blog_feed_titles&lt;/span&gt;&lt;/code&gt;&lt;/a&gt;, &lt;a class=&quot;reference internal&quot; href=&quot;../manual/ablog-configuration-options.html#confval-blog_feed_length&quot;&gt;&lt;code class=&quot;xref std std-confval docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;blog_feed_length&lt;/span&gt;&lt;/code&gt;&lt;/a&gt;, and
+&lt;a class=&quot;reference internal&quot; href=&quot;../manual/ablog-configuration-options.html#confval-blog_archive_titles&quot;&gt;&lt;code class=&quot;xref std std-confval docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;blog_archive_titles&lt;/span&gt;&lt;/code&gt;&lt;/a&gt; configuration options (see &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/abakan/ablog/issues/24&quot;&gt;issue 24&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Set the default for &lt;a class=&quot;reference internal&quot; href=&quot;../manual/ablog-configuration-options.html#confval-blog_feed_archives&quot;&gt;&lt;code class=&quot;xref std std-confval docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;blog_feed_archives&lt;/span&gt;&lt;/code&gt;&lt;/a&gt; to &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;False&lt;/span&gt;&lt;/code&gt;, which
+was set to &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;True&lt;/span&gt;&lt;/code&gt; although documented to be otherwise.&lt;/li&gt;
+&lt;li&gt;Fixed issues with &lt;a class=&quot;reference internal&quot; href=&quot;../manual/ablog-configuration-options.html#confval-post_auto_excerpt&quot;&gt;&lt;code class=&quot;xref std std-confval docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;post_auto_excerpt&lt;/span&gt;&lt;/code&gt;&lt;/a&gt; and
+&lt;a class=&quot;reference internal&quot; href=&quot;../manual/ablog-configuration-options.html#confval-post_auto_image&quot;&gt;&lt;code class=&quot;xref std std-confval docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;post_auto_image&lt;/span&gt;&lt;/code&gt;&lt;/a&gt; configuration options.&lt;/li&gt;
+&lt;li&gt;Fixed &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/abakan/ablog/issues/2&quot;&gt;issue 2&lt;/a&gt;, relative size of tags being the minimum size when
+all tags have the same number of posts. Now, mean size is
+used, and max/min size can be controlled from template.&lt;/li&gt;
+&lt;li&gt;Fixed &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/abakan/ablog/issues/19&quot;&gt;issue 19&lt;/a&gt;. Yearly archives are ordered by recency.&lt;/li&gt;
+&lt;li&gt;Fixed duplicated post title in feeds, &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/abakan/ablog/issues/21&quot;&gt;issue 21&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Fixed &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/abakan/ablog/issues/22&quot;&gt;issue 22&lt;/a&gt;, &lt;a class=&quot;reference internal&quot; href=&quot;../manual/posting-and-listing.html#directive-postlist&quot; title=&quot;postlist directive&quot;&gt;&lt;code class=&quot;xref rst rst-dir docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;postlist&lt;/span&gt;&lt;/code&gt;&lt;/a&gt; directive listing more than
+specified number of posts.&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference internal&quot; href=&quot;../manual/posting-and-listing.html#directive-postlist&quot; title=&quot;postlist directive&quot;&gt;&lt;code class=&quot;xref rst rst-dir docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;postlist&lt;/span&gt;&lt;/code&gt;&lt;/a&gt; directive accepts arguments to format list items
+(&lt;a class=&quot;reference external&quot; href=&quot;https://github.com/abakan/ablog/issues/20&quot;&gt;issue 20&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;/blockquote&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="http://ablog.readthedocs.org\blog\author\ahmet-bakan\atom.xml">
+    <title type="text">ABlog v0.3.1 released</title>
+    <id>http://ablog.readthedocs.org\release/ablog-v0.3-released.html#ablog-v0-3-1-released</id>
+    <updated>2014-09-24T00:00:00Z</updated>
+    <published>2014-09-24T00:00:00Z</published>
+    <link href="http://ablog.readthedocs.org\release/ablog-v0.3-released.html#ablog-v0-3-1-released" />
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;ablog-v0-3-1-released&quot;&gt;
+
+&lt;p&gt;ABlog v0.3.1 is a minor release to fix two issues in templates:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;div&gt;&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;Links to collection (archive) feeds is displayed only on collection page
+(e.g. &lt;a class=&quot;reference internal&quot; href=&quot;../blog\category\manual.html#category-manual&quot;&gt;&lt;span&gt;Manual&lt;/span&gt;&lt;/a&gt;), not on a catalog page that lists posts
+for multiple collections (e.g. &lt;a class=&quot;reference internal&quot; href=&quot;../blog\category.html&quot;&gt;&lt;span&gt;Categories&lt;/span&gt;&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Links to collection feeds is displayed only when they are generated
+(see &lt;a class=&quot;reference internal&quot; href=&quot;../manual/ablog-configuration-options.html#confval-blog_feed_archives&quot;&gt;&lt;code class=&quot;xref std std-confval docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;blog_feed_archives&lt;/span&gt;&lt;/code&gt;&lt;/a&gt;). Previously, links would be generated
+to feeds that did not exist.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;/blockquote&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="http://ablog.readthedocs.org\blog\author\ahmet-bakan\atom.xml">
+    <title type="text">ABlog v0.3 released</title>
+    <id>http://ablog.readthedocs.org\release/ablog-v0.3-released.html</id>
+    <updated>2014-09-15T00:00:00Z</updated>
+    <published>2014-09-15T00:00:00Z</published>
+    <link href="http://ablog.readthedocs.org\release/ablog-v0.3-released.html" />
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+  </entry>
+  <entry xml:base="http://ablog.readthedocs.org\blog\author\ahmet-bakan\atom.xml">
+    <title type="text">ABlog v0.2.3 released</title>
+    <id>http://ablog.readthedocs.org\release/ablog-v0.2-released.html#ablog-v0-2-3-released</id>
+    <updated>2014-09-10T00:00:00Z</updated>
+    <published>2014-09-10T00:00:00Z</published>
+    <link href="http://ablog.readthedocs.org\release/ablog-v0.2-released.html#ablog-v0-2-3-released" />
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;ablog-v0-2-3-released&quot;&gt;
+
+&lt;p&gt;ABlog v0.2.3 is a bug fix release that solves broken links (&lt;a class=&quot;reference external&quot; href=&quot;https://github.com/abakan/ablog/issues/13&quot;&gt;issue 13&lt;/a&gt;)
+and non-unique post IDs problems atom feeds.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="http://ablog.readthedocs.org\blog\author\ahmet-bakan\atom.xml">
+    <title type="text">ABlog v0.2.2 released</title>
+    <id>http://ablog.readthedocs.org\release/ablog-v0.2-released.html#ablog-v0-2-2-released</id>
+    <updated>2014-09-03T00:00:00Z</updated>
+    <published>2014-09-03T00:00:00Z</published>
+    <link href="http://ablog.readthedocs.org\release/ablog-v0.2-released.html#ablog-v0-2-2-released" />
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;ablog-v0-2-2-released&quot;&gt;
+
+&lt;p&gt;ABlog v0.2.2 is a bug fix release that solves broken links problem
+in post lists (&lt;a class=&quot;reference external&quot; href=&quot;https://github.com/abakan/ablog/issues/12&quot;&gt;issue 12&lt;/a&gt;).&lt;/p&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="http://ablog.readthedocs.org\blog\author\ahmet-bakan\atom.xml">
+    <title type="text">ABlog v0.2.1 released</title>
+    <id>http://ablog.readthedocs.org\release/ablog-v0.2-released.html#ablog-v0-2-1-released</id>
+    <updated>2014-09-01T00:00:00Z</updated>
+    <published>2014-09-01T00:00:00Z</published>
+    <link href="http://ablog.readthedocs.org\release/ablog-v0.2-released.html#ablog-v0-2-1-released" />
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;ablog-v0-2-1-released&quot;&gt;
+
+&lt;p&gt;ABlog v0.2.1 is a bug fix release that solves duplicated content
+problem in full text atom feeds.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="http://ablog.readthedocs.org\blog\author\ahmet-bakan\atom.xml">
+    <title type="text">ABlog v0.2 released</title>
+    <id>http://ablog.readthedocs.org\release/ablog-v0.2-released.html</id>
+    <updated>2014-08-31T00:00:00Z</updated>
+    <published>2014-08-31T00:00:00Z</published>
+    <link href="http://ablog.readthedocs.org\release/ablog-v0.2-released.html" />
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+  </entry>
+  <entry xml:base="http://ablog.readthedocs.org\blog\author\ahmet-bakan\atom.xml">
+    <title type="text">ABlog Internationalization</title>
+    <id>http://ablog.readthedocs.org\manual/ablog-i18n.html</id>
+    <updated>2014-08-31T00:00:00Z</updated>
+    <published>2014-08-31T00:00:00Z</published>
+    <link href="http://ablog.readthedocs.org\manual/ablog-i18n.html" />
+    <author>
+      <name>Luc Saffre, Ahmet Bakan</name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;ablog-internationalization&quot;&gt;
+
+&lt;p&gt;ABlog automatically generates certain labels like &lt;a class=&quot;reference internal&quot; href=&quot;../blog\index.html&quot;&gt;&lt;span&gt;Posts&lt;/span&gt;&lt;/a&gt; and
+&lt;a class=&quot;reference internal&quot; href=&quot;../blog\category.html&quot;&gt;&lt;span&gt;Categories&lt;/span&gt;&lt;/a&gt;.  If these labels appear in English on your blog
+although you specified another language, then this page is for you.&lt;/p&gt;
+&lt;p&gt;ABlog needs your help for translation of these labels. Translation process
+involves the following steps:&lt;/p&gt;
+&lt;ol class=&quot;arabic&quot;&gt;
+&lt;li&gt;&lt;p class=&quot;first&quot;&gt;Update translatable messages:&lt;/p&gt;
+&lt;p&gt;Execute &lt;a class=&quot;reference external&quot; href=&quot;http://babel.edgewall.org/wiki/Documentation/setup.html#extract-messages&quot;&gt;extract_messages&lt;/a&gt; each time a translatable message text is changed
+or added:&lt;/p&gt;
+&lt;div class=&quot;highlight-python&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;$ python setup.py extract_messages -o ablog/locale/sphinx.pot
+...
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;This will create or update &lt;code class=&quot;file docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;ablog/locale/sphinx.pot&lt;/span&gt;&lt;/code&gt; file, the
+central messages catalog used by the different translations.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;ol class=&quot;first loweralpha&quot;&gt;
+&lt;li&gt;&lt;p class=&quot;first&quot;&gt;Create new translation catalog:&lt;/p&gt;
+&lt;p&gt;Execute &lt;a class=&quot;reference external&quot; href=&quot;http://babel.edgewall.org/wiki/Documentation/setup.html#init-catalog&quot;&gt;init_catalog&lt;/a&gt; once for each &lt;em&gt;new&lt;/em&gt; language, e.g.:&lt;/p&gt;
+&lt;div class=&quot;highlight-python&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;$ python setup.py init_catalog -l de -i ablog/locale/sphinx.pot -o ablog/locale/de/LC_MESSAGES/sphinx.po
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;This will create a file &lt;code class=&quot;file docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;ablog/locale/de/LC_MESSAGES/sphinx.po&lt;/span&gt;&lt;/code&gt;
+in which translations needs to be placed.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class=&quot;first&quot;&gt;Update translation catalog:&lt;/p&gt;
+&lt;p&gt;Execute &lt;a class=&quot;reference external&quot; href=&quot;http://babel.edgewall.org/wiki/Documentation/setup.html#update-catalog&quot;&gt;update_catalog&lt;/a&gt; for each &lt;em&gt;existing&lt;/em&gt; language, e.g.:&lt;/p&gt;
+&lt;div class=&quot;highlight-python&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;$ python setup.py update_catalog -l de -i ablog/locale/sphinx.pot -o ablog/locale/de/LC_MESSAGES/sphinx.po
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;This will update file &lt;code class=&quot;file docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;ablog/locale/de/LC_MESSAGES/sphinx.po&lt;/span&gt;&lt;/code&gt;
+where translations of new text needs to be placed.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class=&quot;first&quot;&gt;Compile catalogs:&lt;/p&gt;
+&lt;p&gt;Execute &lt;a class=&quot;reference external&quot; href=&quot;http://babel.edgewall.org/wiki/Documentation/setup.html#id4&quot;&gt;compile_catalog&lt;/a&gt; for each existing language, e.g.:&lt;/p&gt;
+&lt;div class=&quot;highlight-python&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;$ python setup.py compile_catalog --directory ablog/locale/ --domain sphinx --locale de
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="http://ablog.readthedocs.org\blog\author\ahmet-bakan\atom.xml">
+    <title type="text">Posting Sections</title>
+    <id>http://ablog.readthedocs.org\manual/posting-and-listing.html#posting-sections</id>
+    <updated>2014-08-20T00:00:00Z</updated>
+    <published>2014-08-20T00:00:00Z</published>
+    <link href="http://ablog.readthedocs.org\manual/posting-and-listing.html#posting-sections" />
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;posting-sections&quot;&gt;
+&lt;span id=&quot;id1&quot;&gt;&lt;/span&gt;
+&lt;p&gt;&lt;a class=&quot;reference internal&quot; href=&quot;#directive-post&quot; title=&quot;post directive&quot;&gt;&lt;code class=&quot;xref rst rst-dir docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;post&lt;/span&gt;&lt;/code&gt;&lt;/a&gt; directive can be used multiple times in a single page
+to create multiple posts of different sections of the document.&lt;/p&gt;
+&lt;p&gt;When &lt;a class=&quot;reference internal&quot; href=&quot;#directive-post&quot; title=&quot;post directive&quot;&gt;&lt;code class=&quot;xref rst rst-dir docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;post&lt;/span&gt;&lt;/code&gt;&lt;/a&gt; is used more than once, post titles and excerpts
+are extracted from the sections that contain the directives. This
+behavior can also be set as the default behavior using
+&lt;a class=&quot;reference internal&quot; href=&quot;ablog-configuration-options.html#confval-post_always_section&quot;&gt;&lt;code class=&quot;xref std std-confval docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;post_always_section&lt;/span&gt;&lt;/code&gt;&lt;/a&gt; configuration options.&lt;/p&gt;
+&lt;p&gt;Some caveats and differences from posting a document once are:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;div&gt;&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;Next and previous links at the bottom will only regard the first post
+in the document.&lt;/li&gt;
+&lt;li&gt;Information displayed on the sidebar will belong to the first post.&lt;/li&gt;
+&lt;li&gt;References for section posts is not automatically created.  Labels for
+cross-referencing needs to be created manually, e.g.
+&lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;..&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;_posting-sections&lt;/span&gt;&lt;/code&gt;. See &lt;a class=&quot;reference external&quot; href=&quot;http://sphinx-doc.org/markup/inline.html#xref-syntax&quot; title=&quot;(in Sphinx v1.3.1+)&quot;&gt;&lt;span&gt;Cross-referencing syntax&lt;/span&gt;&lt;/a&gt; for details.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;/blockquote&gt;
+&lt;p&gt;Multiple use of &lt;a class=&quot;reference internal&quot; href=&quot;#directive-post&quot; title=&quot;post directive&quot;&gt;&lt;code class=&quot;xref rst rst-dir docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;post&lt;/span&gt;&lt;/code&gt;&lt;/a&gt; may be suitable for major additions
+to a previous post. For minor changes, &lt;a class=&quot;reference internal&quot; href=&quot;#directive-update&quot; title=&quot;update directive&quot;&gt;&lt;code class=&quot;xref rst rst-dir docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;update&lt;/span&gt;&lt;/code&gt;&lt;/a&gt; directive
+may be preferred.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="http://ablog.readthedocs.org\blog\author\ahmet-bakan\atom.xml">
+    <title type="text">ABlog v0.1 released</title>
+    <id>http://ablog.readthedocs.org\release/ablog-v0.1-released.html</id>
+    <updated>2014-05-14T00:00:00Z</updated>
+    <published>2014-05-14T00:00:00Z</published>
+    <link href="http://ablog.readthedocs.org\release/ablog-v0.1-released.html" />
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;ablog-v0-1-released&quot;&gt;
+
+&lt;p&gt;ABlog v0.1 is released.&lt;/p&gt;
+&lt;p&gt;This is the very first release, so there are no release notes in this post.&lt;/p&gt;
+&lt;p&gt;Yes, this page is also a post and it resides in a folder different from
+most other posts in this blogumentation.&lt;/p&gt;
+&lt;p&gt;The idea is to enable making any page in a &lt;a class=&quot;reference external&quot; href=&quot;http://sphinx-doc.org/&quot;&gt;Sphinx&lt;/a&gt; project a post so that
+users of a software package can subscribe to feeds and follow new releases
+as well as code examples added to the documentation.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="http://ablog.readthedocs.org\blog\author\ahmet-bakan\atom.xml">
+    <title type="text">Post Excerpts and Images</title>
+    <id>http://ablog.readthedocs.org\manual/post-excerpts-and-images.html</id>
+    <updated>2014-05-12T00:00:00Z</updated>
+    <published>2014-05-12T00:00:00Z</published>
+    <link href="http://ablog.readthedocs.org\manual/post-excerpts-and-images.html" />
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;post-excerpts-and-images&quot;&gt;
+
+&lt;div class=&quot;section&quot; id=&quot;excerpts&quot;&gt;
+&lt;h2&gt;Excerpts&lt;/h2&gt;
+&lt;p&gt;ABlog, by default, uses first paragraph of the document as post excerpt.
+Default number of paragraphs to use in excerpts is controlled via
+&lt;a class=&quot;reference internal&quot; href=&quot;ablog-configuration-options.html#confval-post_auto_excerpt&quot;&gt;&lt;code class=&quot;xref std std-confval docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;post_auto_excerpt&lt;/span&gt;&lt;/code&gt;&lt;/a&gt; configuration variable. This option
+can be overwritten using &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;:excerpt:&lt;/span&gt;&lt;/code&gt; option in &lt;a class=&quot;reference internal&quot; href=&quot;posting-and-listing.html#directive-post&quot; title=&quot;post directive&quot;&gt;&lt;code class=&quot;xref rst rst-dir docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;post&lt;/span&gt;&lt;/code&gt;&lt;/a&gt; directive.&lt;/p&gt;
+&lt;p&gt;Alternatively, you can provide some content in a post directive as follows:&lt;/p&gt;
+&lt;div class=&quot;highlight-python&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;.. post:: Apr 15, 2014
+
+   This is all of the excerpt for this post.
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;This content is going to be used as excerpt in archive pages. Furthermore,
+if you do not want the excerpt to be included in the post, you can use
+&lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;:exclude:&lt;/span&gt;&lt;/code&gt; option as follows:&lt;/p&gt;
+&lt;div class=&quot;highlight-python&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;.. post:: Apr 15, 2014
+   :exclude:
+
+   This is all of the excerpt for this post. It will be displayed
+   in archive pages and excluded from the post page.
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;images&quot;&gt;
+&lt;h2&gt;Images&lt;/h2&gt;
+&lt;p&gt;Let&amp;#8217;s first include a local and a non-local image in this post.&lt;/p&gt;
+&lt;img alt=&quot;https://www.python.org/static/community_logos/python-logo.png&quot; src=&quot;https://www.python.org/static/community_logos/python-logo.png&quot; /&gt;
+&lt;img alt=&quot;_images/ablog.png&quot; src=&quot;_images/ablog.png&quot; /&gt;
+&lt;p&gt;To link the second one of these, we add &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;:image:&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;2&lt;/span&gt;&lt;/code&gt; option in &lt;a class=&quot;reference internal&quot; href=&quot;posting-and-listing.html#directive-post&quot; title=&quot;post directive&quot;&gt;&lt;code class=&quot;xref rst rst-dir docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;post&lt;/span&gt;&lt;/code&gt;&lt;/a&gt;
+directive.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="http://ablog.readthedocs.org\blog\author\ahmet-bakan\atom.xml">
+    <title type="text">Cross-referencing Blog Pages</title>
+    <id>http://ablog.readthedocs.org\manual/cross-referencing-blog-pages.html</id>
+    <updated>2014-05-11T00:00:00Z</updated>
+    <published>2014-05-11T00:00:00Z</published>
+    <link href="http://ablog.readthedocs.org\manual/cross-referencing-blog-pages.html" />
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;cross-referencing-blog-pages&quot;&gt;
+
+&lt;p&gt;ABlog creates references to all post and archive pages.  Posts can be
+cross-referenced using the name of the file, or when the file is named
+&lt;code class=&quot;file docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;index&lt;/span&gt;&lt;/code&gt;, the name of the folder that contains the file.&lt;/p&gt;
+&lt;p&gt;This page, &lt;a class=&quot;reference internal&quot; href=&quot;#cross-referencing-blog-pages&quot;&gt;&lt;span&gt;Cross-referencing Blog Pages&lt;/span&gt;&lt;/a&gt;, for example is referenced
+as &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;:ref:`cross-referencing-blog-pages`&lt;/span&gt;&lt;/code&gt; using &lt;a class=&quot;reference external&quot; href=&quot;http://sphinx-doc.org/markup/inline.html#role-ref&quot; title=&quot;(in Sphinx v1.3.1+)&quot;&gt;&lt;code class=&quot;xref rst rst-role docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;ref&lt;/span&gt;&lt;/code&gt;&lt;/a&gt; role.&lt;/p&gt;
+&lt;div class=&quot;section&quot; id=&quot;archive-pages&quot;&gt;
+&lt;span id=&quot;archives&quot;&gt;&lt;/span&gt;&lt;h2&gt;Archive pages&lt;/h2&gt;
+&lt;p&gt;Archive pages, on the other hand, can be cross-referenced by combining
+archive type and archive name as follows:&lt;/p&gt;
+&lt;table border=&quot;1&quot; class=&quot;docutils&quot;&gt;
+&lt;colgroup&gt;
+&lt;col width=&quot;20%&quot; /&gt;
+&lt;col width=&quot;37%&quot; /&gt;
+&lt;col width=&quot;44%&quot; /&gt;
+&lt;/colgroup&gt;
+&lt;thead valign=&quot;bottom&quot;&gt;
+&lt;tr class=&quot;row-odd&quot;&gt;&lt;th class=&quot;head&quot;&gt;Archive&lt;/th&gt;
+&lt;th class=&quot;head&quot;&gt;Example&lt;/th&gt;
+&lt;th class=&quot;head&quot;&gt;reStructured Text&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody valign=&quot;top&quot;&gt;
+&lt;tr class=&quot;row-even&quot;&gt;&lt;td&gt;Posts&lt;/td&gt;
+&lt;td&gt;&lt;a class=&quot;reference internal&quot; href=&quot;../blog\index.html&quot;&gt;&lt;span&gt;Posts&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;:ref:`blog-posts`&lt;/span&gt;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;row-odd&quot;&gt;&lt;td&gt;Drafts&lt;/td&gt;
+&lt;td&gt;&lt;a class=&quot;reference internal&quot; href=&quot;../blog\drafts\index.html&quot;&gt;&lt;span&gt;Drafts&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;:ref:`blog-drafts`&lt;/span&gt;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;row-even&quot;&gt;&lt;td&gt;Tag&lt;/td&gt;
+&lt;td&gt;&lt;a class=&quot;reference internal&quot; href=&quot;../blog\tag\config.html#tag-config&quot;&gt;&lt;span&gt;config&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;:ref:`tag-config`&lt;/span&gt;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;row-odd&quot;&gt;&lt;td&gt;Author&lt;/td&gt;
+&lt;td&gt;&lt;a class=&quot;reference internal&quot; href=&quot;../blog\author\ahmet-bakan.html#author-ahmet&quot;&gt;&lt;span&gt;Ahmet Bakan&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;:ref:`author-ahmet`&lt;/span&gt;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;row-even&quot;&gt;&lt;td&gt;Archive&lt;/td&gt;
+&lt;td&gt;&lt;a class=&quot;reference internal&quot; href=&quot;../blog\2014.html#archive-2014&quot;&gt;&lt;span&gt;2014&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;:ref:`archive-2014`&lt;/span&gt;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;row-odd&quot;&gt;&lt;td&gt;Language&lt;/td&gt;
+&lt;td&gt;&lt;a class=&quot;reference internal&quot; href=&quot;../blog\language\english.html#language-en&quot;&gt;&lt;span&gt;English&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;:ref:`language-en`&lt;/span&gt;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;row-even&quot;&gt;&lt;td&gt;Location&lt;/td&gt;
+&lt;td&gt;&lt;a class=&quot;reference internal&quot; href=&quot;../blog\location\pittsburgh-pa.html#location-pittsburgh&quot;&gt;&lt;span&gt;Pittsburgh, PA&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;:ref:`location-pittsburgh`&lt;/span&gt;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;row-odd&quot;&gt;&lt;td&gt;Category&lt;/td&gt;
+&lt;td&gt;&lt;a class=&quot;reference internal&quot; href=&quot;../blog\category\manual.html#category-manual&quot;&gt;&lt;span&gt;Manual&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;:ref:`category-manual`&lt;/span&gt;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Following archive pages list all posts by grouping them:&lt;/p&gt;
+&lt;table border=&quot;1&quot; class=&quot;docutils&quot;&gt;
+&lt;colgroup&gt;
+&lt;col width=&quot;20%&quot; /&gt;
+&lt;col width=&quot;37%&quot; /&gt;
+&lt;col width=&quot;44%&quot; /&gt;
+&lt;/colgroup&gt;
+&lt;thead valign=&quot;bottom&quot;&gt;
+&lt;tr class=&quot;row-odd&quot;&gt;&lt;th class=&quot;head&quot;&gt;Archive&lt;/th&gt;
+&lt;th class=&quot;head&quot;&gt;Example&lt;/th&gt;
+&lt;th class=&quot;head&quot;&gt;reStructured Text&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody valign=&quot;top&quot;&gt;
+&lt;tr class=&quot;row-even&quot;&gt;&lt;td&gt;By tag&lt;/td&gt;
+&lt;td&gt;&lt;a class=&quot;reference internal&quot; href=&quot;../blog\tag.html&quot;&gt;&lt;span&gt;Tags&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;:ref:`blog-tags`&lt;/span&gt;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;row-odd&quot;&gt;&lt;td&gt;By author&lt;/td&gt;
+&lt;td&gt;&lt;a class=&quot;reference internal&quot; href=&quot;../blog\author.html&quot;&gt;&lt;span&gt;Authors&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;:ref:`blog-authors`&lt;/span&gt;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;row-even&quot;&gt;&lt;td&gt;By language&lt;/td&gt;
+&lt;td&gt;&lt;a class=&quot;reference internal&quot; href=&quot;../blog\language.html&quot;&gt;&lt;span&gt;Languages&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;:ref:`blog-languages`&lt;/span&gt;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;row-odd&quot;&gt;&lt;td&gt;By location&lt;/td&gt;
+&lt;td&gt;&lt;a class=&quot;reference internal&quot; href=&quot;../blog\location.html&quot;&gt;&lt;span&gt;Locations&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;:ref:`blog-locations`&lt;/span&gt;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;row-even&quot;&gt;&lt;td&gt;By category&lt;/td&gt;
+&lt;td&gt;&lt;a class=&quot;reference internal&quot; href=&quot;../blog\category.html&quot;&gt;&lt;span&gt;Categories&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;:ref:`blog-categories`&lt;/span&gt;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;row-odd&quot;&gt;&lt;td&gt;By archive&lt;/td&gt;
+&lt;td&gt;&lt;a class=&quot;reference internal&quot; href=&quot;../blog/archive.html&quot;&gt;&lt;span&gt;Archives&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;:ref:`blog-archives`&lt;/span&gt;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;When posts have long file or folder names, it may be convenient to use
+them repeatedly for cross-referencing.  An alternative that &lt;a class=&quot;reference external&quot; href=&quot;http://sphinx-doc.org/&quot;&gt;Sphinx&lt;/a&gt; offers
+is creating your own short and unique labels for cross-referencing to posts.
+See &lt;a class=&quot;reference external&quot; href=&quot;http://sphinx-doc.org/markup/inline.html#xref-syntax&quot; title=&quot;(in Sphinx v1.3.1+)&quot;&gt;&lt;span&gt;Cross-referencing syntax&lt;/span&gt;&lt;/a&gt; for details.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="http://ablog.readthedocs.org\blog\author\ahmet-bakan\atom.xml">
+    <title type="text">ABlog Configuration Options</title>
+    <id>http://ablog.readthedocs.org\manual/ablog-configuration-options.html</id>
+    <updated>2015-04-07T00:00:00Z</updated>
+    <published>2014-05-10T00:00:00Z</published>
+    <link href="http://ablog.readthedocs.org\manual/ablog-configuration-options.html" />
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;ablog-configuration-options&quot;&gt;
+&lt;span id=&quot;config&quot;&gt;&lt;/span&gt;
+&lt;p&gt;This post describes ABlog configuration options that go in
+&lt;a class=&quot;reference external&quot; href=&quot;http://sphinx-doc.org/config.html#build-config&quot; title=&quot;(in Sphinx v1.3.1+)&quot;&gt;&lt;span class=&quot;xref std std-ref&quot;&gt;Sphinx build configuration file&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&quot;section&quot; id=&quot;general-options&quot;&gt;
+&lt;h2&gt;General options&lt;/h2&gt;
+&lt;dl class=&quot;confval&quot;&gt;
+&lt;dt id=&quot;confval-blog_path&quot;&gt;
+&lt;code class=&quot;descname&quot;&gt;blog_path&lt;/code&gt;&lt;/dt&gt;
+&lt;dd&gt;&lt;p&gt;A path relative to the configuration directory for blog archive pages.
+Default is &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;'blog'&lt;/span&gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;/dd&gt;&lt;/dl&gt;
+
+&lt;dl class=&quot;confval&quot;&gt;
+&lt;dt id=&quot;confval-blog_title&quot;&gt;
+&lt;code class=&quot;descname&quot;&gt;blog_title&lt;/code&gt;&lt;/dt&gt;
+&lt;dd&gt;&lt;p&gt;The “title” for the blog, used in acthive pages.  Default is &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;'Blog'&lt;/span&gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;/dd&gt;&lt;/dl&gt;
+
+&lt;dl class=&quot;confval&quot;&gt;
+&lt;dt id=&quot;confval-blog_baseurl&quot;&gt;
+&lt;code class=&quot;descname&quot;&gt;blog_baseurl&lt;/code&gt;&lt;/dt&gt;
+&lt;dd&gt;&lt;p&gt;Base URL for the website, required for generating feeds.&lt;/p&gt;
+&lt;/dd&gt;&lt;/dl&gt;
+
+&lt;dl class=&quot;confval&quot;&gt;
+&lt;dt id=&quot;confval-blog_archive_titles&quot;&gt;
+&lt;code class=&quot;descname&quot;&gt;blog_archive_titles&lt;/code&gt;&lt;/dt&gt;
+&lt;dd&gt;&lt;p&gt;Choose to archive only post titles in collection pages, default is
+&lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;False&lt;/span&gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;/dd&gt;&lt;/dl&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;authors-languages-locations&quot;&gt;
+&lt;h2&gt;Authors, languages, &amp;amp; locations&lt;/h2&gt;
+&lt;dl class=&quot;confval&quot;&gt;
+&lt;dt id=&quot;confval-blog_authors&quot;&gt;
+&lt;code class=&quot;descname&quot;&gt;blog_authors&lt;/code&gt;&lt;/dt&gt;
+&lt;dd&gt;&lt;p&gt;A dictionary of author names mapping to author full display names and
+links. Dictionary keys are what should be used in &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;post&lt;/span&gt;&lt;/code&gt; directive
+to refer to the author.  Default is &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;{}&lt;/span&gt;&lt;/code&gt;. Example:&lt;/p&gt;
+&lt;div class=&quot;highlight-python&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;n&quot;&gt;blog_authors&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;&amp;#39;Ahmet&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;Ahmet Bakan&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;#39;http://ahmetbakan.com&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;&amp;#39;Durden&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;Tyler Durden&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+               &lt;span class=&quot;s&quot;&gt;&amp;#39;http://en.wikipedia.org/wiki/Tyler_Durden&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/dd&gt;&lt;/dl&gt;
+
+&lt;dl class=&quot;confval&quot;&gt;
+&lt;dt id=&quot;confval-blog_languages&quot;&gt;
+&lt;code class=&quot;descname&quot;&gt;blog_languages&lt;/code&gt;&lt;/dt&gt;
+&lt;dd&gt;&lt;p&gt;A dictionary of language code names mapping to full display names and
+links of these languages. Similar to &lt;a class=&quot;reference internal&quot; href=&quot;#confval-blog_authors&quot;&gt;&lt;code class=&quot;xref std std-confval docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;blog_authors&lt;/span&gt;&lt;/code&gt;&lt;/a&gt;, dictionary
+keys should be used in &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;post&lt;/span&gt;&lt;/code&gt; directive to refer to the locations.
+Default is &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;{}&lt;/span&gt;&lt;/code&gt;. Example:&lt;/p&gt;
+&lt;div class=&quot;highlight-python&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;n&quot;&gt;blog_languages&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;&amp;#39;en&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;English&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;None&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/dd&gt;&lt;/dl&gt;
+
+&lt;dl class=&quot;confval&quot;&gt;
+&lt;dt id=&quot;confval-blog_locations&quot;&gt;
+&lt;code class=&quot;descname&quot;&gt;blog_locations&lt;/code&gt;&lt;/dt&gt;
+&lt;dd&gt;&lt;p&gt;A dictionary of location names mapping to full display names and
+links of these locations. Similar to &lt;a class=&quot;reference internal&quot; href=&quot;#confval-blog_authors&quot;&gt;&lt;code class=&quot;xref std std-confval docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;blog_authors&lt;/span&gt;&lt;/code&gt;&lt;/a&gt;, dictionary
+keys should be used in &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;post&lt;/span&gt;&lt;/code&gt; directive to refer to the locations.
+Default is &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;{}&lt;/span&gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;/dd&gt;&lt;/dl&gt;
+
+&lt;dl class=&quot;confval&quot;&gt;
+&lt;dt id=&quot;confval-blog_default_author&quot;&gt;
+&lt;code class=&quot;descname&quot;&gt;blog_default_author&lt;/code&gt;&lt;/dt&gt;
+&lt;dd&gt;&lt;p&gt;Name of the default author defined in &lt;a class=&quot;reference internal&quot; href=&quot;#confval-blog_authors&quot;&gt;&lt;code class=&quot;xref std std-confval docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;blog_authors&lt;/span&gt;&lt;/code&gt;&lt;/a&gt;.
+Default is &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;None&lt;/span&gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;/dd&gt;&lt;/dl&gt;
+
+&lt;dl class=&quot;confval&quot;&gt;
+&lt;dt id=&quot;confval-blog_default_language&quot;&gt;
+&lt;code class=&quot;descname&quot;&gt;blog_default_language&lt;/code&gt;&lt;/dt&gt;
+&lt;dd&gt;&lt;p&gt;Code name of the default language defined in &lt;a class=&quot;reference internal&quot; href=&quot;#confval-blog_languages&quot;&gt;&lt;code class=&quot;xref std std-confval docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;blog_languages&lt;/span&gt;&lt;/code&gt;&lt;/a&gt;.
+Default is &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;None&lt;/span&gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;/dd&gt;&lt;/dl&gt;
+
+&lt;dl class=&quot;confval&quot;&gt;
+&lt;dt id=&quot;confval-blog_default_location&quot;&gt;
+&lt;code class=&quot;descname&quot;&gt;blog_default_location&lt;/code&gt;&lt;/dt&gt;
+&lt;dd&gt;&lt;p&gt;Name of the default location defined in &lt;a class=&quot;reference internal&quot; href=&quot;#confval-blog_locations&quot;&gt;&lt;code class=&quot;xref std std-confval docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;blog_locations&lt;/span&gt;&lt;/code&gt;&lt;/a&gt;.
+Default is &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;None&lt;/span&gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;/dd&gt;&lt;/dl&gt;
+
+&lt;div class=&quot;note update admonition&quot;&gt;
+&lt;p class=&quot;first admonition-title&quot;&gt;Updated on Sep 15, 2014&lt;/p&gt;
+&lt;p class=&quot;last&quot;&gt;Added &lt;a class=&quot;reference internal&quot; href=&quot;#confval-blog_languages&quot;&gt;&lt;code class=&quot;xref std std-confval docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;blog_languages&lt;/span&gt;&lt;/code&gt;&lt;/a&gt; and &lt;a class=&quot;reference internal&quot; href=&quot;#confval-blog_default_language&quot;&gt;&lt;code class=&quot;xref std std-confval docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;blog_default_language&lt;/span&gt;&lt;/code&gt;&lt;/a&gt;
+configuration variables.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;post-related&quot;&gt;
+&lt;h2&gt;Post related&lt;/h2&gt;
+&lt;dl class=&quot;confval&quot;&gt;
+&lt;dt id=&quot;confval-post_date_format&quot;&gt;
+&lt;code class=&quot;descname&quot;&gt;post_date_format&lt;/code&gt;&lt;/dt&gt;
+&lt;dd&gt;&lt;p&gt;Date display format (default is &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;'%b&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;%d,&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;%Y'&lt;/span&gt;&lt;/code&gt;) for published posts that
+goes as input to &lt;a class=&quot;reference external&quot; href=&quot;http://docs.python.org/library/datetime.html#datetime.date.strftime&quot; title=&quot;(in Python v2.7)&quot;&gt;&lt;code class=&quot;xref py py-meth docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;datetime.date.strftime()&lt;/span&gt;&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;/dd&gt;&lt;/dl&gt;
+
+&lt;dl class=&quot;confval&quot;&gt;
+&lt;dt id=&quot;confval-post_auto_excerpt&quot;&gt;
+&lt;code class=&quot;descname&quot;&gt;post_auto_excerpt&lt;/code&gt;&lt;/dt&gt;
+&lt;dd&gt;&lt;p&gt;Number of paragraphs (default is &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;1&lt;/span&gt;&lt;/code&gt;) that will be displayed as an excerpt
+from the post. Setting this &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;0&lt;/span&gt;&lt;/code&gt; will result in displaying no post excerpt
+in archive pages.  This option can be set on a per post basis using
+&lt;a class=&quot;reference internal&quot; href=&quot;posting-and-listing.html#directive-post&quot; title=&quot;post directive&quot;&gt;&lt;code class=&quot;xref rst rst-dir docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;post&lt;/span&gt;&lt;/code&gt;&lt;/a&gt; directive option &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;excerpt&lt;/span&gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;See &lt;a class=&quot;reference internal&quot; href=&quot;post-excerpts-and-images.html#post-excerpts-and-images&quot;&gt;&lt;span&gt;Post Excerpts and Images&lt;/span&gt;&lt;/a&gt; for a more detailed discussion.&lt;/p&gt;
+&lt;/dd&gt;&lt;/dl&gt;
+
+&lt;dl class=&quot;confval&quot;&gt;
+&lt;dt id=&quot;confval-post_auto_image&quot;&gt;
+&lt;code class=&quot;descname&quot;&gt;post_auto_image&lt;/code&gt;&lt;/dt&gt;
+&lt;dd&gt;&lt;p&gt;Index of the image that will be displayed in the excerpt of the post.
+Default is &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;0&lt;/span&gt;&lt;/code&gt;, meaning no image.  Setting this to &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;1&lt;/span&gt;&lt;/code&gt; will include
+the first image, when available, to the excerpt.  This option can be set
+on a per post basis using &lt;a class=&quot;reference internal&quot; href=&quot;posting-and-listing.html#directive-post&quot; title=&quot;post directive&quot;&gt;&lt;code class=&quot;xref rst rst-dir docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;post&lt;/span&gt;&lt;/code&gt;&lt;/a&gt; directive option &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;image&lt;/span&gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;/dd&gt;&lt;/dl&gt;
+
+&lt;dl class=&quot;confval&quot;&gt;
+&lt;dt id=&quot;confval-post_redirect_refresh&quot;&gt;
+&lt;code class=&quot;descname&quot;&gt;post_redirect_refresh&lt;/code&gt;&lt;/dt&gt;
+&lt;dd&gt;&lt;p&gt;Number of seconds (default is &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;5&lt;/span&gt;&lt;/code&gt;) that a redirect page waits before
+refreshing the page to redirect to the post.&lt;/p&gt;
+&lt;/dd&gt;&lt;/dl&gt;
+
+&lt;dl class=&quot;confval&quot;&gt;
+&lt;dt id=&quot;confval-post_always_section&quot;&gt;
+&lt;code class=&quot;descname&quot;&gt;post_always_section&lt;/code&gt;&lt;/dt&gt;
+&lt;dd&gt;&lt;p&gt;When &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;True&lt;/span&gt;&lt;/code&gt;, post title and excerpt is always taken from the section that
+contains the &lt;a class=&quot;reference internal&quot; href=&quot;posting-and-listing.html#directive-post&quot; title=&quot;post directive&quot;&gt;&lt;code class=&quot;xref rst rst-dir docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;post&lt;/span&gt;&lt;/code&gt;&lt;/a&gt; directive, instead of the document. This is the
+behavior when &lt;a class=&quot;reference internal&quot; href=&quot;posting-and-listing.html#directive-post&quot; title=&quot;post directive&quot;&gt;&lt;code class=&quot;xref rst rst-dir docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;post&lt;/span&gt;&lt;/code&gt;&lt;/a&gt; is used multiple times in a document. Default
+is &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;False&lt;/span&gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;/dd&gt;&lt;/dl&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;blog-feeds&quot;&gt;
+&lt;h2&gt;Blog feeds&lt;/h2&gt;
+&lt;p&gt;Turn feeds by setting &lt;a class=&quot;reference internal&quot; href=&quot;#confval-blog_baseurl&quot;&gt;&lt;code class=&quot;xref std std-confval docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;blog_baseurl&lt;/span&gt;&lt;/code&gt;&lt;/a&gt; configuration variable.&lt;/p&gt;
+&lt;dl class=&quot;confval&quot;&gt;
+&lt;dt id=&quot;confval-blog_feed_archives&quot;&gt;
+&lt;code class=&quot;descname&quot;&gt;blog_feed_archives&lt;/code&gt;&lt;/dt&gt;
+&lt;dd&gt;&lt;p&gt;Choose to create feeds per author, location, tag, category, and year,
+default is &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;False&lt;/span&gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;/dd&gt;&lt;/dl&gt;
+
+&lt;dl class=&quot;confval&quot;&gt;
+&lt;dt id=&quot;confval-blog_feed_fulltext&quot;&gt;
+&lt;code class=&quot;descname&quot;&gt;blog_feed_fulltext&lt;/code&gt;&lt;/dt&gt;
+&lt;dd&gt;&lt;p&gt;Choose to display full text in blog feeds, default is &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;False&lt;/span&gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;/dd&gt;&lt;/dl&gt;
+
+&lt;dl class=&quot;confval&quot;&gt;
+&lt;dt id=&quot;confval-blog_feed_subtitle&quot;&gt;
+&lt;code class=&quot;descname&quot;&gt;blog_feed_subtitle&lt;/code&gt;&lt;/dt&gt;
+&lt;dd&gt;&lt;p&gt;Blog feed subtitle, default is &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;None&lt;/span&gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;/dd&gt;&lt;/dl&gt;
+
+&lt;dl class=&quot;confval&quot;&gt;
+&lt;dt id=&quot;confval-blog_feed_titles&quot;&gt;
+&lt;code class=&quot;descname&quot;&gt;blog_feed_titles&lt;/code&gt;&lt;/dt&gt;
+&lt;dd&gt;&lt;p&gt;Choose to feed only post titles, default is &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;False&lt;/span&gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;/dd&gt;&lt;/dl&gt;
+
+&lt;dl class=&quot;confval&quot;&gt;
+&lt;dt id=&quot;confval-blog_feed_length&quot;&gt;
+&lt;code class=&quot;descname&quot;&gt;blog_feed_length&lt;/code&gt;&lt;/dt&gt;
+&lt;dd&gt;&lt;p&gt;Specify number of recent posts to include in feeds, default is &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;None&lt;/span&gt;&lt;/code&gt;
+for all posts.&lt;/p&gt;
+&lt;/dd&gt;&lt;/dl&gt;
+
+&lt;div class=&quot;note update admonition&quot;&gt;
+&lt;p class=&quot;first admonition-title&quot;&gt;Updated on Aug 24, 2014&lt;/p&gt;
+&lt;p class=&quot;last&quot;&gt;Added &lt;a class=&quot;reference internal&quot; href=&quot;#confval-blog_feed_archives&quot;&gt;&lt;code class=&quot;xref std std-confval docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;blog_feed_archives&lt;/span&gt;&lt;/code&gt;&lt;/a&gt;, &lt;a class=&quot;reference internal&quot; href=&quot;#confval-blog_feed_fulltext&quot;&gt;&lt;code class=&quot;xref std std-confval docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;blog_feed_fulltext&lt;/span&gt;&lt;/code&gt;&lt;/a&gt;,
+&lt;a class=&quot;reference internal&quot; href=&quot;#confval-blog_feed_subtitle&quot;&gt;&lt;code class=&quot;xref std std-confval docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;blog_feed_subtitle&lt;/span&gt;&lt;/code&gt;&lt;/a&gt;, and &lt;a class=&quot;reference internal&quot; href=&quot;#confval-post_always_section&quot;&gt;&lt;code class=&quot;xref std std-confval docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;post_always_section&lt;/span&gt;&lt;/code&gt;&lt;/a&gt;
+options.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;note update admonition&quot;&gt;
+&lt;p class=&quot;first admonition-title&quot;&gt;Updated on Nov 27, 2014&lt;/p&gt;
+&lt;p class=&quot;last&quot;&gt;Added &lt;a class=&quot;reference internal&quot; href=&quot;#confval-blog_feed_titles&quot;&gt;&lt;code class=&quot;xref std std-confval docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;blog_feed_titles&lt;/span&gt;&lt;/code&gt;&lt;/a&gt;, &lt;a class=&quot;reference internal&quot; href=&quot;#confval-blog_feed_length&quot;&gt;&lt;code class=&quot;xref std std-confval docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;blog_feed_length&lt;/span&gt;&lt;/code&gt;&lt;/a&gt;, and
+&lt;a class=&quot;reference internal&quot; href=&quot;#confval-blog_archive_titles&quot;&gt;&lt;code class=&quot;xref std std-confval docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;blog_archive_titles&lt;/span&gt;&lt;/code&gt;&lt;/a&gt; options.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;font-awesome&quot;&gt;
+&lt;span id=&quot;fa&quot;&gt;&lt;/span&gt;&lt;h2&gt;Font awesome&lt;/h2&gt;
+&lt;p&gt;ABlog templates will use of &lt;a class=&quot;reference external&quot; href=&quot;http://fontawesome.io/&quot;&gt;Font Awesome&lt;/a&gt; icons if one of the following
+is &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;True&lt;/span&gt;&lt;/code&gt;:&lt;/p&gt;
+&lt;dl class=&quot;confval&quot;&gt;
+&lt;dt id=&quot;confval-fontawesome_link_cdn&quot;&gt;
+&lt;code class=&quot;descname&quot;&gt;fontawesome_link_cdn&lt;/code&gt;&lt;/dt&gt;
+&lt;dd&gt;&lt;p&gt;Link to &lt;a class=&quot;reference external&quot; href=&quot;http://fontawesome.io/&quot;&gt;Font Awesome&lt;/a&gt; at &lt;a class=&quot;reference external&quot; href=&quot;http://www.bootstrapcdn.com/#fontawesome_tab&quot;&gt;Bootstrap CDN&lt;/a&gt; and use icons in sidebars
+and post footers.  Default: &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;False&lt;/span&gt;&lt;/code&gt;&lt;/p&gt;
+&lt;/dd&gt;&lt;/dl&gt;
+
+&lt;dl class=&quot;confval&quot;&gt;
+&lt;dt id=&quot;confval-fontawesome_included&quot;&gt;
+&lt;code class=&quot;descname&quot;&gt;fontawesome_included&lt;/code&gt;&lt;/dt&gt;
+&lt;dd&gt;&lt;p&gt;&lt;a class=&quot;reference external&quot; href=&quot;http://sphinx-doc.org/&quot;&gt;Sphinx&lt;/a&gt; theme already links to &lt;a class=&quot;reference external&quot; href=&quot;http://fontawesome.io/&quot;&gt;Font Awesome&lt;/a&gt;.  Default: &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;False&lt;/span&gt;&lt;/code&gt;&lt;/p&gt;
+&lt;/dd&gt;&lt;/dl&gt;
+
+&lt;p&gt;Alternatively, you can provide the path to &lt;a class=&quot;reference external&quot; href=&quot;http://fontawesome.io/&quot;&gt;Font Awesome&lt;/a&gt; &lt;code class=&quot;file docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;.css&lt;/span&gt;&lt;/code&gt;
+with the following configuration option:&lt;/p&gt;
+&lt;dl class=&quot;confval&quot;&gt;
+&lt;dt id=&quot;confval-fontawesome_css_file&quot;&gt;
+&lt;code class=&quot;descname&quot;&gt;fontawesome_css_file&lt;/code&gt;&lt;/dt&gt;
+&lt;dd&gt;&lt;p&gt;Path to &lt;a class=&quot;reference external&quot; href=&quot;http://fontawesome.io/&quot;&gt;Font Awesome&lt;/a&gt; &lt;code class=&quot;file docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;.css&lt;/span&gt;&lt;/code&gt; (default is &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;None&lt;/span&gt;&lt;/code&gt;) that will
+be linked to in HTML output by ABlog.&lt;/p&gt;
+&lt;/dd&gt;&lt;/dl&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;disqus-integration&quot;&gt;
+&lt;span id=&quot;id2&quot;&gt;&lt;/span&gt;&lt;h2&gt;Disqus integration&lt;/h2&gt;
+&lt;p&gt;Of course one cannot think of a blog that doesn&amp;#8217;t allow for visitors to
+comment.  You can enable &lt;a class=&quot;reference external&quot; href=&quot;http://disqus.com/&quot;&gt;Disqus&lt;/a&gt; by setting &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;disqus_shortname&lt;/span&gt;&lt;/code&gt; variable.&lt;/p&gt;
+&lt;dl class=&quot;confval&quot;&gt;
+&lt;dt id=&quot;confval-disqus_shortname&quot;&gt;
+&lt;code class=&quot;descname&quot;&gt;disqus_shortname&lt;/code&gt;&lt;/dt&gt;
+&lt;dd&gt;&lt;p&gt;&lt;a class=&quot;reference external&quot; href=&quot;http://disqus.com/&quot;&gt;Disqus&lt;/a&gt; short name for the website.&lt;/p&gt;
+&lt;/dd&gt;&lt;/dl&gt;
+
+&lt;dl class=&quot;confval&quot;&gt;
+&lt;dt id=&quot;confval-disqus_pages&quot;&gt;
+&lt;code class=&quot;descname&quot;&gt;disqus_pages&lt;/code&gt;&lt;/dt&gt;
+&lt;dd&gt;&lt;p&gt;Choose to disqus pages that are not posts, default is &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;False&lt;/span&gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;/dd&gt;&lt;/dl&gt;
+
+&lt;dl class=&quot;confval&quot;&gt;
+&lt;dt id=&quot;confval-disqus_drafts&quot;&gt;
+&lt;code class=&quot;descname&quot;&gt;disqus_drafts&lt;/code&gt;&lt;/dt&gt;
+&lt;dd&gt;&lt;p&gt;Choose to disqus posts that are drafts (without a published date),
+default is &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;False&lt;/span&gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;/dd&gt;&lt;/dl&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;blog-sidebars&quot;&gt;
+&lt;span id=&quot;sidebars&quot;&gt;&lt;/span&gt;&lt;h2&gt;Blog sidebars&lt;/h2&gt;
+&lt;p&gt;Finally, there are seven sidebars you can include in your HTML output
+using &lt;a class=&quot;reference external&quot; href=&quot;http://sphinx-doc.org/&quot;&gt;Sphinx&lt;/a&gt; &lt;a class=&quot;reference external&quot; href=&quot;http://sphinx-doc.org/config.html#confval-html_sidebars&quot; title=&quot;(in Sphinx v1.3.1+)&quot;&gt;&lt;code class=&quot;xref std std-confval docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;html_sidebars&lt;/span&gt;&lt;/code&gt;&lt;/a&gt; configuration option.  Sidebars that
+you see on the left are listed below in the same order:&lt;/p&gt;
+&lt;div class=&quot;highlight-python&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;n&quot;&gt;html_sidebars&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+   &lt;span class=&quot;s&quot;&gt;&amp;#39;**&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+          &lt;span class=&quot;s&quot;&gt;&amp;#39;postcard.html&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;#39;recentposts.html&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+          &lt;span class=&quot;s&quot;&gt;&amp;#39;tagcloud.html&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;#39;categories.html&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+          &lt;span class=&quot;s&quot;&gt;&amp;#39;archives.html&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;file docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;postcard.html&lt;/span&gt;&lt;/code&gt; provides information regarding the current post.
+&lt;code class=&quot;file docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;recentposts.html&lt;/span&gt;&lt;/code&gt; lists most recent five posts.  Others provide a
+link to a archive pages generated for each tag, category, and year.
+In addition, there are &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;authors.html&lt;/span&gt;&lt;/code&gt;, &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;languages.html&lt;/span&gt;&lt;/code&gt;, and
+&lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;locations.html&lt;/span&gt;&lt;/code&gt; sidebars that link to author and location archive pages.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;command-options&quot;&gt;
+&lt;h2&gt;Command Options&lt;/h2&gt;
+&lt;div class=&quot;note update admonition&quot;&gt;
+&lt;p class=&quot;first admonition-title&quot;&gt;Updated on Apr 07, 2015&lt;/p&gt;
+&lt;p class=&quot;last&quot;&gt;Added &lt;a class=&quot;reference internal&quot; href=&quot;ablog-commands.html#commands&quot;&gt;&lt;span&gt;ABlog Commands&lt;/span&gt;&lt;/a&gt; options.&lt;/p&gt;
+&lt;/div&gt;
+&lt;dl class=&quot;confval&quot;&gt;
+&lt;dt id=&quot;confval-ablog_website&quot;&gt;
+&lt;code class=&quot;descname&quot;&gt;ablog_website&lt;/code&gt;&lt;/dt&gt;
+&lt;dd&gt;&lt;p&gt;Directory name for build output files. Default is &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;_website&lt;/span&gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;/dd&gt;&lt;/dl&gt;
+
+&lt;dl class=&quot;confval&quot;&gt;
+&lt;dt id=&quot;confval-ablog_doctrees&quot;&gt;
+&lt;code class=&quot;descname&quot;&gt;ablog_doctrees&lt;/code&gt;&lt;/dt&gt;
+&lt;dd&gt;&lt;p&gt;Directory name for build cache files. Default is &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;.doctrees&lt;/span&gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;/dd&gt;&lt;/dl&gt;
+
+&lt;dl class=&quot;confval&quot;&gt;
+&lt;dt id=&quot;confval-ablog_builder&quot;&gt;
+&lt;code class=&quot;descname&quot;&gt;ablog_builder&lt;/code&gt;&lt;/dt&gt;
+&lt;dd&gt;&lt;p&gt;HTML builder, default is &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;dirhtml&lt;/span&gt;&lt;/code&gt;. Build HTML pages, but with
+a single directory per document. Makes for prettier URLs (no .html)
+if served from a webserver. Alternative is &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;html&lt;/span&gt;&lt;/code&gt; to build
+one HTML file per document.&lt;/p&gt;
+&lt;/dd&gt;&lt;/dl&gt;
+
+&lt;dl class=&quot;confval&quot;&gt;
+&lt;dt id=&quot;confval-github_pages&quot;&gt;
+&lt;code class=&quot;descname&quot;&gt;github_pages&lt;/code&gt;&lt;/dt&gt;
+&lt;dd&gt;&lt;p&gt;GitHub user name used by &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;ablog&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;deploy&lt;/span&gt;&lt;/code&gt; command. See &lt;a class=&quot;reference internal&quot; href=&quot;ablog-commands.html#deploy&quot;&gt;&lt;span&gt;Deploy Website&lt;/span&gt;&lt;/a&gt;
+and &lt;a class=&quot;reference internal&quot; href=&quot;deploy-to-github-pages.html#deploy-to-github-pages&quot;&gt;&lt;span&gt;Deploy to GitHub Pages&lt;/span&gt;&lt;/a&gt; for more information.&lt;/p&gt;
+&lt;/dd&gt;&lt;/dl&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="http://ablog.readthedocs.org\blog\author\ahmet-bakan\atom.xml">
+    <title type="text">Posting and Listing</title>
+    <id>http://ablog.readthedocs.org\manual/posting-and-listing.html</id>
+    <updated>2015-04-14T00:00:00Z</updated>
+    <published>2014-05-09T00:00:00Z</published>
+    <link href="http://ablog.readthedocs.org\manual/posting-and-listing.html" />
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+  </entry>
+</feed>

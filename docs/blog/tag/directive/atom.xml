@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">ABlog - Posts tagged directive</title>
+  <id>http://ablog.readthedocs.org\blog\tag\directive\atom.xml</id>
+  <updated>2015-04-14T00:00:00Z</updated>
+  <link href="http://ablog.readthedocs.org" />
+  <link href="http://ablog.readthedocs.org\blog\tag\directive\atom.xml" rel="self" />
+  <generator uri="http://blog.readthedocs.org" version="0.6.4">ABlog</generator>
+  <entry xml:base="http://ablog.readthedocs.org\blog\tag\directive\atom.xml">
+    <title type="text">Posting Sections</title>
+    <id>http://ablog.readthedocs.org\manual/posting-and-listing.html#posting-sections</id>
+    <updated>2014-08-20T00:00:00Z</updated>
+    <published>2014-08-20T00:00:00Z</published>
+    <link href="http://ablog.readthedocs.org\manual/posting-and-listing.html#posting-sections" />
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;posting-sections&quot;&gt;
+&lt;span id=&quot;id1&quot;&gt;&lt;/span&gt;
+&lt;p&gt;&lt;a class=&quot;reference internal&quot; href=&quot;#directive-post&quot; title=&quot;post directive&quot;&gt;&lt;code class=&quot;xref rst rst-dir docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;post&lt;/span&gt;&lt;/code&gt;&lt;/a&gt; directive can be used multiple times in a single page
+to create multiple posts of different sections of the document.&lt;/p&gt;
+&lt;p&gt;When &lt;a class=&quot;reference internal&quot; href=&quot;#directive-post&quot; title=&quot;post directive&quot;&gt;&lt;code class=&quot;xref rst rst-dir docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;post&lt;/span&gt;&lt;/code&gt;&lt;/a&gt; is used more than once, post titles and excerpts
+are extracted from the sections that contain the directives. This
+behavior can also be set as the default behavior using
+&lt;a class=&quot;reference internal&quot; href=&quot;ablog-configuration-options.html#confval-post_always_section&quot;&gt;&lt;code class=&quot;xref std std-confval docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;post_always_section&lt;/span&gt;&lt;/code&gt;&lt;/a&gt; configuration options.&lt;/p&gt;
+&lt;p&gt;Some caveats and differences from posting a document once are:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;div&gt;&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;Next and previous links at the bottom will only regard the first post
+in the document.&lt;/li&gt;
+&lt;li&gt;Information displayed on the sidebar will belong to the first post.&lt;/li&gt;
+&lt;li&gt;References for section posts is not automatically created.  Labels for
+cross-referencing needs to be created manually, e.g.
+&lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;..&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;_posting-sections&lt;/span&gt;&lt;/code&gt;. See &lt;a class=&quot;reference external&quot; href=&quot;http://sphinx-doc.org/markup/inline.html#xref-syntax&quot; title=&quot;(in Sphinx v1.3.1+)&quot;&gt;&lt;span&gt;Cross-referencing syntax&lt;/span&gt;&lt;/a&gt; for details.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;/blockquote&gt;
+&lt;p&gt;Multiple use of &lt;a class=&quot;reference internal&quot; href=&quot;#directive-post&quot; title=&quot;post directive&quot;&gt;&lt;code class=&quot;xref rst rst-dir docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;post&lt;/span&gt;&lt;/code&gt;&lt;/a&gt; may be suitable for major additions
+to a previous post. For minor changes, &lt;a class=&quot;reference internal&quot; href=&quot;#directive-update&quot; title=&quot;update directive&quot;&gt;&lt;code class=&quot;xref rst rst-dir docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;update&lt;/span&gt;&lt;/code&gt;&lt;/a&gt; directive
+may be preferred.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="http://ablog.readthedocs.org\blog\tag\directive\atom.xml">
+    <title type="text">Post Excerpts and Images</title>
+    <id>http://ablog.readthedocs.org\manual/post-excerpts-and-images.html</id>
+    <updated>2014-05-12T00:00:00Z</updated>
+    <published>2014-05-12T00:00:00Z</published>
+    <link href="http://ablog.readthedocs.org\manual/post-excerpts-and-images.html" />
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;post-excerpts-and-images&quot;&gt;
+
+&lt;div class=&quot;section&quot; id=&quot;excerpts&quot;&gt;
+&lt;h2&gt;Excerpts&lt;/h2&gt;
+&lt;p&gt;ABlog, by default, uses first paragraph of the document as post excerpt.
+Default number of paragraphs to use in excerpts is controlled via
+&lt;a class=&quot;reference internal&quot; href=&quot;ablog-configuration-options.html#confval-post_auto_excerpt&quot;&gt;&lt;code class=&quot;xref std std-confval docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;post_auto_excerpt&lt;/span&gt;&lt;/code&gt;&lt;/a&gt; configuration variable. This option
+can be overwritten using &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;:excerpt:&lt;/span&gt;&lt;/code&gt; option in &lt;a class=&quot;reference internal&quot; href=&quot;posting-and-listing.html#directive-post&quot; title=&quot;post directive&quot;&gt;&lt;code class=&quot;xref rst rst-dir docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;post&lt;/span&gt;&lt;/code&gt;&lt;/a&gt; directive.&lt;/p&gt;
+&lt;p&gt;Alternatively, you can provide some content in a post directive as follows:&lt;/p&gt;
+&lt;div class=&quot;highlight-python&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;.. post:: Apr 15, 2014
+
+   This is all of the excerpt for this post.
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;This content is going to be used as excerpt in archive pages. Furthermore,
+if you do not want the excerpt to be included in the post, you can use
+&lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;:exclude:&lt;/span&gt;&lt;/code&gt; option as follows:&lt;/p&gt;
+&lt;div class=&quot;highlight-python&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;.. post:: Apr 15, 2014
+   :exclude:
+
+   This is all of the excerpt for this post. It will be displayed
+   in archive pages and excluded from the post page.
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;images&quot;&gt;
+&lt;h2&gt;Images&lt;/h2&gt;
+&lt;p&gt;Let&amp;#8217;s first include a local and a non-local image in this post.&lt;/p&gt;
+&lt;img alt=&quot;https://www.python.org/static/community_logos/python-logo.png&quot; src=&quot;https://www.python.org/static/community_logos/python-logo.png&quot; /&gt;
+&lt;img alt=&quot;_images/ablog.png&quot; src=&quot;_images/ablog.png&quot; /&gt;
+&lt;p&gt;To link the second one of these, we add &lt;code class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;:image:&lt;/span&gt; &lt;span class=&quot;pre&quot;&gt;2&lt;/span&gt;&lt;/code&gt; option in &lt;a class=&quot;reference internal&quot; href=&quot;posting-and-listing.html#directive-post&quot; title=&quot;post directive&quot;&gt;&lt;code class=&quot;xref rst rst-dir docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;post&lt;/span&gt;&lt;/code&gt;&lt;/a&gt;
+directive.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="http://ablog.readthedocs.org\blog\tag\directive\atom.xml">
+    <title type="text">Posting and Listing</title>
+    <id>http://ablog.readthedocs.org\manual/posting-and-listing.html</id>
+    <updated>2015-04-14T00:00:00Z</updated>
+    <published>2014-05-09T00:00:00Z</published>
+    <link href="http://ablog.readthedocs.org\manual/posting-and-listing.html" />
+    <author>
+      <name>Ahmet Bakan</name>
+    </author>
+  </entry>
+</feed>

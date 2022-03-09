@@ -1,2 +1,0 @@
-
-.. _linked-open-data: http://en.wikipedia.org/wiki/Linked_open_data
